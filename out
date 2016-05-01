@@ -1,0 +1,1509 @@
+#rm -rf proposal.pdf
+pdflatex proposal.tex
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./proposal.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./gatech-thesis.cls
+Document Class: gatech-thesis 2003/04/14 1.6 (Charles Wilson)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/gatech-thesis/gatech-thesis-patch
+.sty
+
+***
+*** This is a patch for `gatech-thesis.cls' version 1.8, but
+*** you're using version 1.6.
+***
+*** Patch file not loaded.
+***
+
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment')
+(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithms/algorithm.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithms/algorithmic.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everyshi.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex)) (/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/boxedminipage/boxedminipage.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+No file proposal.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+ABD: EveryShipout initializing macros
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+[2]
+No file proposal.toc.
+[3] (./abstract.tex
+***************** Abstract ******************
+[4]) [5] (./intro.tex
+CHAPTER I.
+
+LaTeX Warning: Reference `fig:hybrid' on page 1 undefined on input line 4.
+
+<figures/hybrid.pdf, id=23, 322.20375pt x 266.9975pt> <use figures/hybrid.pdf>
+[1 <./figures/hybrid.pdf>]
+<figures/servicemodel.pdf, id=169, 241.90375pt x 101.37875pt>
+<use figures/servicemodel.pdf>
+<figures/incremental-graph.pdf, id=170, 494.84875pt x 311.1625pt>
+<use figures/incremental-graph.pdf>
+
+LaTeX Warning: Reference `fig:inc' on page 2 undefined on input line 32.
+
+
+LaTeX Warning: Citation `pegasus' on page 2 undefined on input line 34.
+
+[2 <./figures/servicemodel.pdf> <./figures/incremental-graph.pdf>]
+
+LaTeX Warning: Citation `graphlab' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Citation `powergraph' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Citation `pregel' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Citation `chi' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Citation `xstream' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Citation `ligra' on page 3 undefined on input line 37.
+
+[3] [4]
+
+LaTeX Warning: Reference `fig:inc' on page 5 undefined on input line 46.
+
+) (./research.tex [5]
+CHAPTER II.
+(./thesis.tex) (./motivation.tex
+<figures/cloud-workload.pdf, id=945, 254.9525pt x 99.37125pt>
+<use figures/cloud-workload.pdf>
+<figures/GPU-utilization.pdf, id=946, 243.91125pt x 108.405pt>
+<use figures/GPU-utilization.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:cloud' on page 6 undefined on input line 20.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omlcmr.fd)
+
+LaTeX Warning: Reference `fig:cloud' on page 6 undefined on input line 20.
+
+[6] [7 <./figures/cloud-workload.pdf> <./figures/GPU-utilization.pdf>]
+
+LaTeX Warning: Reference `tab:hw' on page 8 undefined on input line 52.
+
+
+LaTeX Warning: Citation `xstream' on page 8 undefined on input line 52.
+
+
+LaTeX Warning: Citation `cusha' on page 8 undefined on input line 52.
+
+) [8] (./background.tex
+
+LaTeX Warning: Citation `gvim' on page 9 undefined on input line 5.
+
+
+LaTeX Warning: Citation `vcuda' on page 9 undefined on input line 5.
+
+
+LaTeX Warning: Citation `rcuda' on page 9 undefined on input line 5.
+
+
+LaTeX Warning: Citation `pegasus' on page 9 undefined on input line 5.
+
+
+LaTeX Warning: Citation `gvirtus' on page 9 undefined on input line 5.
+
+
+LaTeX Warning: Reference `fig:remoting' on page 9 undefined on input line 5.
+
+
+LaTeX Warning: Reference `fig:remoting' on page 9 undefined on input line 5.
+
+[9]
+
+LaTeX Warning: Citation `pregel' on page 10 undefined on input line 8.
+
+
+LaTeX Warning: Citation `powergraph' on page 10 undefined on input line 8.
+
+
+LaTeX Warning: Citation `graphlab' on page 10 undefined on input line 8.
+
+
+LaTeX Warning: Citation `vertexapi' on page 10 undefined on input line 11.
+
+
+LaTeX Warning: Reference `fig:design' on page 10 undefined on input line 15.
+
+
+LaTeX Warning: Citation `powergraph' on page 10 undefined on input line 38.
+
+
+LaTeX Warning: Citation `pregel' on page 10 undefined on input line 38.
+
+
+LaTeX Warning: Citation `pagerank' on page 10 undefined on input line 40.
+
+[10] <figures/GPU-remoting.pdf, id=1027, 241.90375pt x 115.43124pt>
+<use figures/GPU-remoting.pdf>
+<figures/GPool.pdf, id=1028, 241.90375pt x 121.45375pt>
+<use figures/GPool.pdf> <figures/GAS.pdf, id=1029, 608.2725pt x 238.8925pt>
+<use figures/GAS.pdf>
+<figures/Strings-design.pdf, id=1030, 241.90375pt x 117.43875pt>
+<use figures/Strings-design.pdf>) (./design.tex
+
+LaTeX Warning: Reference `fig:design' on page 11 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Rain' on page 11 undefined on input line 7.
+
+[11 <./figures/GPU-remoting.pdf> <./figures/GPool.pdf> <./figures/GAS.pdf> <./f
+igures/Strings-design.pdf>]
+
+LaTeX Warning: Citation `liedtke' on page 12 undefined on input line 9.
+
+[12]
+
+LaTeX Warning: Citation `Strings' on page 13 undefined on input line 11.
+
+
+LaTeX Warning: Reference `fig:design' on page 13 undefined on input line 11.
+
+<figures/hybrid-model.pdf, id=1792, 721.69624pt x 191.71625pt>
+<use figures/hybrid-model.pdf>
+
+LaTeX Warning: Reference `fig:vertex-edge' on page 13 undefined on input line 2
+4.
+
+
+LaTeX Warning: Citation `graphlab' on page 13 undefined on input line 25.
+
+
+LaTeX Warning: Citation `pregel' on page 13 undefined on input line 25.
+
+
+LaTeX Warning: Citation `chi' on page 13 undefined on input line 25.
+
+
+LaTeX Warning: Citation `xstream' on page 13 undefined on input line 25.
+
+[13 <./figures/hybrid-model.pdf>]
+<figures/transfer.pdf, id=1813, 355.74606pt x 207.91878pt>
+<use figures/transfer.pdf>
+<figures/Matrix.png, id=1814, 775.89874pt x 451.6875pt>
+<use figures/Matrix.png>
+
+LaTeX Warning: Reference `fig:transfer' on page 14 undefined on input line 45.
+
+[14 <./figures/transfer.pdf> <./figures/Matrix.png>] [15]
+
+LaTeX Warning: Reference `fig:transfer' on page 16 undefined on input line 48.
+
+[16] [17] [18]) (./applications.tex [19]
+Overfull \hbox (4.47183pt too wide) in paragraph at lines 7--9
+\OT1/cmr/m/n/10.95 in-clud-ing Breadth First search (BFS), Page Rank (PR), Sing
+le-Source Short-est Paths (SSSP),
+[20]) (./evaluation.tex)) (./strings.tex [21]
+CHAPTER III.
+[22]) (./graphreduce.tex [23] [24] [25]
+CHAPTER IV.
+
+LaTeX Warning: Citation `vtdc' on page 26 undefined on input line 5.
+
+
+LaTeX Warning: Citation `cloud' on page 26 undefined on input line 5.
+
+
+LaTeX Warning: Citation `medusa' on page 26 undefined on input line 6.
+
+
+LaTeX Warning: Citation `mapgraph' on page 26 undefined on input line 6.
+
+
+LaTeX Warning: Citation `cusha' on page 26 undefined on input line 6.
+
+
+LaTeX Warning: Citation `naila' on page 26 undefined on input line 6.
+
+
+LaTeX Warning: Citation `chi' on page 26 undefined on input line 7.
+
+
+LaTeX Warning: Citation `xstream' on page 26 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ppl' on page 26 undefined on input line 8.
+
+
+LaTeX Warning: Citation `pact' on page 26 undefined on input line 8.
+
+
+LaTeX Warning: Citation `jure' on page 26 undefined on input line 8.
+
+
+LaTeX Warning: Citation `graphlab' on page 26 undefined on input line 11.
+
+
+LaTeX Warning: Citation `chi' on page 26 undefined on input line 12.
+
+
+LaTeX Warning: Citation `xstream' on page 26 undefined on input line 12.
+
+
+LaTeX Warning: Citation `xstream' on page 26 undefined on input line 18.
+
+
+LaTeX Warning: Citation `chi' on page 26 undefined on input line 18.
+
+
+LaTeX Warning: Citation `kepler' on page 26 undefined on input line 21.
+
+[26]
+
+LaTeX Warning: Citation `yahoo' on page 27 undefined on input line 31.
+
+[27]
+
+LaTeX Warning: Citation `chi' on page 28 undefined on input line 58.
+
+
+LaTeX Warning: Citation `xstream' on page 28 undefined on input line 58.
+
+
+LaTeX Warning: Citation `mapgraph' on page 28 undefined on input line 58.
+
+
+LaTeX Warning: Citation `cusha' on page 28 undefined on input line 58.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/phases.pdf): PDF inclusion: found PDF 
+version <1.6>, but at most version <1.5> allowed
+<figures/phases.pdf, id=1874, 411.11049pt x 183.04485pt>
+<use figures/phases.pdf>
+
+LaTeX Warning: Citation `pregel' on page 28 undefined on input line 82.
+
+
+LaTeX Warning: Citation `powergraph' on page 28 undefined on input line 82.
+
+
+LaTeX Warning: Citation `graphlab' on page 28 undefined on input line 82.
+
+
+LaTeX Warning: Citation `vertexapi' on page 28 undefined on input line 86.
+
+
+LaTeX Warning: Reference `fig:phases' on page 28 undefined on input line 90.
+
+
+Overfull \hbox (0.95752pt too wide) in paragraph at lines 82--92
+\OT1/cmr/m/n/10.95 GraphReduce ex-poses the Gather-Apply-Scatter (GAS) com-pu-t
+a-tional model used by Pregel
+[28]
+
+LaTeX Warning: Citation `powergraph' on page 29 undefined on input line 113.
+
+
+LaTeX Warning: Citation `pregel' on page 29 undefined on input line 113.
+
+
+LaTeX Warning: Citation `sc05' on page 29 undefined on input line 113.
+
+
+LaTeX Warning: Citation `pagerank' on page 29 undefined on input line 115.
+
+[29 <./figures/phases.pdf>]
+
+pdfTeX warning: pdflatex (file ./figures/vertex-edge.pdf): PDF inclusion: found
+ PDF version <1.6>, but at most version <1.5> allowed
+<figures/vertex-edge.pdf, id=1897, 369.64368pt x 159.35034pt>
+<use figures/vertex-edge.pdf>
+
+LaTeX Warning: Reference `fig:vertex-edge' on page 30 undefined on input line 1
+33.
+
+
+LaTeX Warning: Reference `fig:vertex-edge' on page 30 undefined on input line 1
+34.
+
+
+LaTeX Warning: Citation `BSP' on page 30 undefined on input line 135.
+
+
+LaTeX Warning: Citation `ak2010' on page 30 undefined on input line 150.
+
+
+LaTeX Warning: Citation `coauthors' on page 30 undefined on input line 151.
+
+
+LaTeX Warning: Citation `kron20' on page 30 undefined on input line 152.
+
+
+LaTeX Warning: Citation `web' on page 30 undefined on input line 153.
+
+
+LaTeX Warning: Citation `belgium' on page 30 undefined on input line 154.
+
+
+LaTeX Warning: Citation `kron20' on page 30 undefined on input line 156.
+
+
+LaTeX Warning: Citation `nlpktt' on page 30 undefined on input line 157.
+
+
+LaTeX Warning: Citation `uk2002' on page 30 undefined on input line 158.
+
+
+LaTeX Warning: Citation `orkut' on page 30 undefined on input line 159.
+
+
+LaTeX Warning: Citation `cage15' on page 30 undefined on input line 160.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `medusa' on page 30 undefined on input line 192.
+
+
+LaTeX Warning: Citation `cusha' on page 30 undefined on input line 192.
+
+
+LaTeX Warning: Citation `vertexapi' on page 30 undefined on input line 192.
+
+
+LaTeX Warning: Citation `mapgraph' on page 30 undefined on input line 192.
+
+
+LaTeX Warning: Reference `gpu-cpu' on page 30 undefined on input line 192.
+
+
+LaTeX Warning: Citation `xstream' on page 30 undefined on input line 193.
+
+
+LaTeX Warning: Citation `cusha' on page 30 undefined on input line 193.
+
+
+LaTeX Warning: Citation `kron20' on page 30 undefined on input line 194.
+
+[30 <./figures/vertex-edge.pdf>]
+
+LaTeX Warning: Citation `yahoo' on page 31 undefined on input line 221.
+
+
+LaTeX Warning: Reference `datasets' on page 31 undefined on input line 222.
+
+
+LaTeX Warning: Citation `cusha' on page 31 undefined on input line 223.
+
+
+LaTeX Warning: Citation `mapgraph' on page 31 undefined on input line 223.
+
+
+LaTeX Warning: Citation `vertexapi' on page 31 undefined on input line 223.
+
+
+LaTeX Warning: Citation `medusa' on page 31 undefined on input line 223.
+
+
+LaTeX Warning: Citation `chi' on page 31 undefined on input line 223.
+
+
+LaTeX Warning: Citation `xstream' on page 31 undefined on input line 223.
+
+
+LaTeX Warning: Reference `gpu-cpu' on page 31 undefined on input line 224.
+
+
+LaTeX Warning: Citation `totem' on page 31 undefined on input line 224.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/frontier.pdf): PDF inclusion: found PD
+F version <1.6>, but at most version <1.5> allowed
+<figures/frontier.pdf, id=1909, 697.67052pt x 218.13496pt>
+<use figures/frontier.pdf> [31]
+
+LaTeX Warning: Reference `fig:frontier' on page 32 undefined on input line 266.
+
+
+
+LaTeX Warning: Reference `fig:frontier' on page 32 undefined on input line 267.
+
+
+
+LaTeX Warning: Reference `fig:frontier' on page 32 undefined on input line 271.
+
+
+
+LaTeX Warning: Reference `datasets' on page 32 undefined on input line 273.
+
+[32 <./figures/frontier.pdf>]
+
+LaTeX Warning: Citation `graphlab' on page 33 undefined on input line 285.
+
+
+LaTeX Warning: Citation `pregel' on page 33 undefined on input line 285.
+
+
+LaTeX Warning: Citation `chi' on page 33 undefined on input line 285.
+
+
+LaTeX Warning: Citation `xstream' on page 33 undefined on input line 286.
+
+
+LaTeX Warning: Reference `fig:phases' on page 33 undefined on input line 289.
+
+
+LaTeX Warning: Reference `datasets' on page 33 undefined on input line 291.
+
+<use figures/transfer.pdf>
+
+pdfTeX warning: pdflatex (file ./figures/2schemes.pdf): PDF inclusion: found PD
+F version <1.6>, but at most version <1.5> allowed
+<figures/2schemes.pdf, id=1930, 346.7324pt x 207.31754pt>
+<use figures/2schemes.pdf>
+
+LaTeX Warning: Reference `fig:vertex-edge' on page 33 undefined on input line 3
+29.
+
+[33] [34 <./figures/2schemes.pdf>]
+
+LaTeX Warning: Reference `fig:transfer' on page 35 undefined on input line 338.
+
+
+
+LaTeX Warning: Citation `UVA' on page 35 undefined on input line 339.
+
+
+LaTeX Warning: Citation `UVA' on page 35 undefined on input line 341.
+
+
+LaTeX Warning: Citation `chi' on page 35 undefined on input line 350.
+
+
+LaTeX Warning: Citation `xstream' on page 35 undefined on input line 350.
+
+[35]
+
+LaTeX Warning: Reference `fig:big1' on page 36 undefined on input line 377.
+
+[36]
+
+pdfTeX warning: pdflatex (file ./figures/CC_code.pdf): PDF inclusion: found PDF
+ version <1.6>, but at most version <1.5> allowed
+<figures/CC_code.pdf, id=1951, 478.04797pt x 303.29712pt>
+<use figures/CC_code.pdf>
+
+pdfTeX warning: pdflatex (file ./figures/shard.pdf): PDF inclusion: found PDF v
+ersion <1.6>, but at most version <1.5> allowed
+<figures/shard.pdf, id=1952, 619.62682pt x 217.4022pt> <use figures/shard.pdf>
+
+LaTeX Warning: Reference `fig:cc' on page 37 undefined on input line 406.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/big1.pdf): PDF inclusion: found PDF ve
+rsion <1.6>, but at most version <1.5> allowed
+<figures/big1.pdf, id=1953, 661.68542pt x 196.66975pt> <use figures/big1.pdf>
+
+LaTeX Warning: Reference `fig:big2' on page 37 undefined on input line 439.
+
+
+LaTeX Warning: Reference `fig:shard' on page 37 undefined on input line 442.
+
+[37 <./figures/CC_code.pdf> <./figures/shard.pdf
+
+pdfTeX warning: pdflatex (file ./figures/shard.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `fig:shard' on page 38 undefined on input line 449.
+
+
+LaTeX Warning: Citation `csr' on page 38 undefined on input line 457.
+
+
+LaTeX Warning: Reference `fig:big2' on page 38 undefined on input line 465.
+
+[38 <./figures/big1.pdf>]
+
+pdfTeX warning: pdflatex (file ./figures/big2.pdf): PDF inclusion: found PDF ve
+rsion <1.6>, but at most version <1.5> allowed
+<figures/big2.pdf, id=2372, 347.13289pt x 213.25673pt> <use figures/big2.pdf>
+
+pdfTeX warning: pdflatex (file ./figures/big_new.pdf): PDF inclusion: found PDF
+ version <1.6>, but at most version <1.5> allowed
+<figures/big_new.pdf, id=2373, 719.73862pt x 194.29991pt>
+<use figures/big_new.pdf>
+
+pdfTeX warning: pdflatex (file ./figures/hyperq.pdf): PDF inclusion: found PDF 
+version <1.6>, but at most version <1.5> allowed
+<figures/hyperq.pdf, id=2374, 591.78543pt x 178.30516pt>
+<use figures/hyperq.pdf> [39 <./figures/big2.pdf> <./figures/big_new.pdf
+
+pdfTeX warning: pdflatex (file ./figures/big_new.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `fig:big_new' on page 40 undefined on input line 522.
+
+
+LaTeX Warning: Citation `cuda7' on page 40 undefined on input line 524.
+
+
+LaTeX Warning: Citation `kepler' on page 40 undefined on input line 525.
+
+
+LaTeX Warning: Reference `fig:hyperq' on page 40 undefined on input line 526.
+
+
+LaTeX Warning: Reference `fig:big_new' on page 40 undefined on input line 529.
+
+[40 <./figures/hyperq.pdf>]
+
+LaTeX Warning: Reference `equ:shard1' on page 41 undefined on input line 559.
+
+
+LaTeX Warning: Reference `equ:shard2' on page 41 undefined on input line 559.
+
+
+LaTeX Warning: Reference `equ:shard1' on page 41 undefined on input line 560.
+
+
+LaTeX Warning: Reference `equ:shard2' on page 41 undefined on input line 560.
+
+
+LaTeX Warning: Reference `fig:big_new' on page 41 undefined on input line 572.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/5phases_1.pdf): PDF inclusion: found P
+DF version <1.6>, but at most version <1.5> allowed
+<figures/5phases_1.pdf, id=2969, 655.76193pt x 376.15942pt>
+<use figures/5phases_1.pdf>
+
+LaTeX Warning: Reference `fig:shard' on page 41 undefined on input line 588.
+
+
+LaTeX Warning: Reference `fig:5phases' on page 41 undefined on input line 590.
+
+
+LaTeX Warning: Citation `pregel' on page 41 undefined on input line 591.
+
+
+LaTeX Warning: Citation `powergraph' on page 41 undefined on input line 591.
+
+
+LaTeX Warning: Citation `graphlab' on page 41 undefined on input line 591.
+
+
+LaTeX Warning: Reference `fig:5phases' on page 41 undefined on input line 592.
+
+[41]
+Overfull \hbox (3.07877pt too wide) in paragraph at lines 598--600
+\OT1/cmr/m/n/10.95 ting each edge the state of the source ver-tex and up-dat-in
+g that in the edge[]update[]array
+
+LaTeX Warning: Reference `fig:5phases' on page 42 undefined on input line 613.
+
+
+LaTeX Warning: Reference `fig:5phases' on page 42 undefined on input line 620.
+
+[42 <./figures/5phases_1.pdf>]
+
+LaTeX Warning: Citation `moderngpu' on page 43 undefined on input line 624.
+
+
+LaTeX Warning: Reference `fig:big_new' on page 43 undefined on input line 627.
+
+
+LaTeX Warning: Citation `moderngpu' on page 43 undefined on input line 629.
+
+
+LaTeX Warning: Reference `fig:big_new' on page 43 undefined on input line 654.
+
+
+LaTeX Warning: Reference `fig:hyperq' on page 43 undefined on input line 661.
+
+[43]
+
+LaTeX Warning: Reference `fig:frontier' on page 44 undefined on input line 673.
+
+
+[44] [45]
+
+LaTeX Warning: Reference `datasets' on page 46 undefined on input line 721.
+
+
+LaTeX Warning: Reference `datasets' on page 46 undefined on input line 732.
+
+[46]
+
+pdfTeX warning: pdflatex (file ./figures/speedup1.pdf): PDF inclusion: found PD
+F version <1.6>, but at most version <1.5> allowed
+<figures/speedup1.pdf, id=3288, 356.34631pt x 176.07079pt>
+<use figures/speedup1.pdf>
+
+pdfTeX warning: pdflatex (file ./figures/speedup2.pdf): PDF inclusion: found PD
+F version <1.6>, but at most version <1.5> allowed
+<figures/speedup2.pdf, id=3289, 344.3284pt x 174.8683pt>
+<use figures/speedup2.pdf>
+
+LaTeX Warning: Citation `mapgraph' on page 47 undefined on input line 833.
+
+
+LaTeX Warning: Citation `vertexapi' on page 47 undefined on input line 833.
+
+
+LaTeX Warning: Citation `medusa' on page 47 undefined on input line 833.
+
+
+LaTeX Warning: Citation `cusha' on page 47 undefined on input line 833.
+
+
+LaTeX Warning: Citation `chi' on page 47 undefined on input line 834.
+
+
+LaTeX Warning: Citation `xstream' on page 47 undefined on input line 834.
+
+
+LaTeX Warning: Reference `datasets' on page 47 undefined on input line 836.
+
+[47]
+
+LaTeX Warning: Reference `bigdata' on page 48 undefined on input line 840.
+
+
+LaTeX Warning: Reference `fig:speedup1' on page 48 undefined on input line 840.
+
+
+
+LaTeX Warning: Reference `fig:speedup2' on page 48 undefined on input line 840.
+
+
+[48 <./figures/speedup1.pdf> <./figures/speedup2.pdf
+
+pdfTeX warning: pdflatex (file ./figures/speedup2.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `smalldata' on page 49 undefined on input line 865.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/memcpy.pdf): PDF inclusion: found PDF 
+version <1.6>, but at most version <1.5> allowed
+<figures/memcpy.pdf, id=3324, 677.68044pt x 210.29466pt>
+<use figures/memcpy.pdf>
+
+pdfTeX warning: pdflatex (file ./figures/frontier2.pdf): PDF inclusion: found P
+DF version <1.6>, but at most version <1.5> allowed
+<figures/frontier2.pdf, id=3325, 614.7437pt x 500.56851pt>
+<use figures/frontier2.pdf>
+
+pdfTeX warning: pdflatex (file ./figures/frontier_exp.pdf): PDF inclusion: foun
+d PDF version <1.6>, but at most version <1.5> allowed
+<figures/frontier_exp.pdf, id=3326, 518.33076pt x 262.4234pt>
+<use figures/frontier_exp.pdf>
+
+LaTeX Warning: Reference `fig:memcpy' on page 49 undefined on input line 910.
+
+
+LaTeX Warning: Reference `fig:memcpy' on page 49 undefined on input line 912.
+
+
+LaTeX Warning: Reference `fig:memcpy' on page 49 undefined on input line 914.
+
+[49] [50 <./figures/memcpy.pdf> <./figures/frontier2.pdf
+
+pdfTeX warning: pdflatex (file ./figures/frontier2.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./figures/frontier_exp.pdf
+
+pdfTeX warning: pdflatex (file ./figures/frontier_exp.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `fig:frontier2' on page 51 undefined on input line 919
+.
+
+
+LaTeX Warning: Reference `fig:frontier_exp' on page 51 undefined on input line 
+923.
+
+
+LaTeX Warning: Reference `fig:frontier2' on page 51 undefined on input line 924
+.
+
+
+LaTeX Warning: Reference `fig:memcpy' on page 51 undefined on input line 925.
+
+[51]
+
+LaTeX Warning: Citation `Merrill' on page 52 undefined on input line 947.
+
+
+LaTeX Warning: Citation `Hong' on page 52 undefined on input line 950.
+
+
+LaTeX Warning: Citation `Duong' on page 52 undefined on input line 952.
+
+
+LaTeX Warning: Citation `ASSP' on page 52 undefined on input line 953.
+
+
+LaTeX Warning: Citation `medusa' on page 52 undefined on input line 960.
+
+
+LaTeX Warning: Citation `mapgraph' on page 52 undefined on input line 962.
+
+
+LaTeX Warning: Citation `vertexapi' on page 52 undefined on input line 962.
+
+
+LaTeX Warning: Citation `moderngpu' on page 52 undefined on input line 968.
+
+
+LaTeX Warning: Citation `cusha' on page 52 undefined on input line 968.
+
+[52]
+
+LaTeX Warning: Citation `chi' on page 53 undefined on input line 980.
+
+
+LaTeX Warning: Reference `gpu-cpu' on page 53 undefined on input line 982.
+
+
+LaTeX Warning: Citation `xstream' on page 53 undefined on input line 984.
+
+
+LaTeX Warning: Citation `xstream' on page 53 undefined on input line 985.
+
+
+LaTeX Warning: Citation `totem' on page 53 undefined on input line 987.
+
+
+LaTeX Warning: Citation `green' on page 53 undefined on input line 991.
+
+[53]) (./evograph.tex [54]
+CHAPTER V.
+
+LaTeX Warning: Citation `15' on page 55 undefined on input line 5.
+
+
+LaTeX Warning: Citation `16' on page 55 undefined on input line 5.
+
+
+LaTeX Warning: Citation `17' on page 55 undefined on input line 5.
+
+
+LaTeX Warning: Citation `18' on page 55 undefined on input line 5.
+
+
+LaTeX Warning: Citation `19' on page 55 undefined on input line 5.
+
+
+LaTeX Warning: Citation `titan' on page 55 undefined on input line 5.
+
+
+LaTeX Warning: Citation `mapgraph' on page 55 undefined on input line 5.
+
+
+LaTeX Warning: Citation `medusa' on page 55 undefined on input line 5.
+
+
+LaTeX Warning: Citation `cusha' on page 55 undefined on input line 5.
+
+
+LaTeX Warning: Citation `GraphReduce' on page 55 undefined on input line 5.
+
+
+LaTeX Warning: Citation `linkbench' on page 55 undefined on input line 5.
+
+
+LaTeX Warning: Citation `twitter' on page 55 undefined on input line 5.
+
+
+LaTeX Warning: Citation `fb' on page 55 undefined on input line 7.
+
+[55] [56]
+
+LaTeX Warning: Citation `GR' on page 57 undefined on input line 15.
+
+
+Overfull \hbox (1.63351pt too wide) in paragraph at lines 15--16
+[]\OT1/cmr/m/it/10.95 EvoGraph\OT1/cmr/m/n/10.95 , an accelerator-based high-pe
+rformance in-cre-men-tal graph pro-cess-ing frame-
+
+LaTeX Warning: Citation `pregel' on page 57 undefined on input line 51.
+
+
+LaTeX Warning: Citation `powergraph' on page 57 undefined on input line 51.
+
+
+LaTeX Warning: Citation `graphlab' on page 57 undefined on input line 51.
+
+
+LaTeX Warning: Citation `GraphReduce' on page 57 undefined on input line 51.
+
+[57] <figures/static_GR.pdf, id=3396, 438.00038pt x 182.09029pt>
+<use figures/static_GR.pdf>
+
+LaTeX Warning: Citation `titan' on page 58 undefined on input line 89.
+
+
+LaTeX Warning: Reference `fig:static' on page 58 undefined on input line 89.
+
+[58 <./figures/static_GR.pdf>]
+
+LaTeX Warning: Reference `fig:link' on page 59 undefined on input line 91.
+
+<figures/link.pdf, id=3408, 452.76453pt x 519.69518pt> <use figures/link.pdf>
+
+LaTeX Warning: Reference `fig:link' on page 59 undefined on input line 166.
+
+[59] [60 <./figures/link.pdf>]
+
+LaTeX Warning: Citation `csr' on page 61 undefined on input line 173.
+
+[61]
+
+LaTeX Warning: Citation `CCof' on page 62 undefined on input line 178.
+
+
+LaTeX Warning: Citation `CC_new' on page 62 undefined on input line 178.
+
+
+LaTeX Warning: Citation `CC' on page 62 undefined on input line 178.
+
+
+LaTeX Warning: Citation `Rain' on page 62 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Strings' on page 62 undefined on input line 183.
+
+[62] <figures/framework.pdf, id=3428, 901.70746pt x 280.33232pt>
+<use figures/framework.pdf>
+
+LaTeX Warning: Reference `fig:framework' on page 63 undefined on input line 238
+.
+
+[63 <./figures/framework.pdf>]
+
+LaTeX Warning: Reference `tbl:table' on page 64 undefined on input line 241.
+
+
+Overfull \hbox (22.25587pt too wide) in paragraph at lines 241--242
+\OT1/cmr/m/n/10.95 tar-geted GPU. The user-defined func-tions in-clude \OT1/cmr
+/m/it/10.95 meta[]computation()\OT1/cmr/m/n/10.95 , \OT1/cmr/m/it/10.95 build[]
+inconsistency[]list()\OT1/cmr/m/n/10.95 ,
+[64]
+
+pdfTeX warning: pdflatex (file ./figures/bfs.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<figures/bfs.pdf, id=3440, 638.8076pt x 383.28455pt> <use figures/bfs.pdf>
+
+pdfTeX warning: pdflatex (file ./figures/cc.pdf): PDF inclusion: found PDF vers
+ion <1.6>, but at most version <1.5> allowed
+<figures/cc.pdf, id=3441, 685.75595pt x 331.7175pt> <use figures/cc.pdf>
+<figures/table.pdf, id=3442, 1076.02pt x 540.0175pt> <use figures/table.pdf>
+
+LaTeX Warning: Reference `fig:bfs' on page 65 undefined on input line 275.
+
+
+LaTeX Warning: Reference `fig:cc' on page 65 undefined on input line 275.
+
+
+LaTeX Warning: Reference `fig:framework' on page 65 undefined on input line 275
+.
+
+[65 <./figures/bfs.pdf> <./figures/cc.pdf
+
+pdfTeX warning: pdflatex (file ./figures/cc.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+>] <figures/deep.png, id=3461, 387.3672pt x 243.309pt> <use figures/deep.png>
+[66 <./figures/table.pdf> <./figures/deep.png>]
+
+LaTeX Warning: Reference `fig:deep' on page 67 undefined on input line 295.
+
+
+LaTeX Warning: Citation `cuda7' on page 67 undefined on input line 295.
+
+
+LaTeX Warning: Citation `GraphReduce' on page 67 undefined on input line 295.
+
+
+LaTeX Warning: Reference `fig:deep' on page 67 undefined on input line 297.
+
+[67]
+
+LaTeX Warning: Reference `fig:bfs' on page 68 undefined on input line 327.
+
+
+LaTeX Warning: Reference `tbl:table' on page 68 undefined on input line 327.
+
+
+LaTeX Warning: Reference `tbl:table' on page 68 undefined on input line 327.
+
+
+LaTeX Warning: Reference `fig:bfs' on page 68 undefined on input line 333.
+
+
+LaTeX Warning: Reference `fig:cc' on page 68 undefined on input line 333.
+
+
+LaTeX Warning: Reference `tbl:table' on page 68 undefined on input line 333.
+
+
+LaTeX Warning: Reference `tbl:table' on page 68 undefined on input line 333.
+
+
+LaTeX Warning: Reference `tbl:table' on page 68 undefined on input line 335.
+
+[68]
+
+LaTeX Warning: Reference `fig:bfs' on page 69 undefined on input line 348.
+
+
+LaTeX Warning: Reference `fig:cc' on page 69 undefined on input line 348.
+
+
+LaTeX Warning: Reference `lst:igas' on page 69 undefined on input line 348.
+
+[69]
+
+LaTeX Font Warning: Font shape `OMS/cmss/bx/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 430.
+
+
+Overfull \hbox (146.39548pt too wide) in paragraph at lines 363--519
+[]$[]$  $[]$
+
+LaTeX Warning: Float too large for page by 70.80196pt on input line 519.
+
+
+LaTeX Warning: Reference `tbl:table' on page 70 undefined on input line 523.
+
+
+LaTeX Warning: Reference `tbl:table' on page 70 undefined on input line 528.
+
+[70]
+
+LaTeX Warning: Reference `tbl:table' on page 71 undefined on input line 564.
+
+
+LaTeX Warning: Reference `fig:bfs' on page 71 undefined on input line 564.
+
+
+LaTeX Warning: Citation `GraphReduce' on page 71 undefined on input line 564.
+
+
+LaTeX Warning: Citation `Ramalingam' on page 71 undefined on input line 564.
+
+
+LaTeX Warning: Citation `Ramalingam' on page 71 undefined on input line 564.
+
+
+LaTeX Warning: Reference `lst:mm_bfs' on page 71 undefined on input line 564.
+
+
+LaTeX Warning: Reference `tbl:table' on page 71 undefined on input line 568.
+
+
+LaTeX Warning: Reference `fig:cc' on page 71 undefined on input line 568.
+
+
+LaTeX Warning: Citation `CC' on page 71 undefined on input line 568.
+
+
+LaTeX Warning: Citation `CC_new' on page 71 undefined on input line 568.
+
+
+LaTeX Warning: Citation `CC' on page 71 undefined on input line 568.
+
+
+LaTeX Warning: Reference `lst:mm_cc' on page 71 undefined on input line 568.
+
+[71]
+
+LaTeX Warning: Reference `tbl:table' on page 72 undefined on input line 570.
+
+
+LaTeX Warning: Citation `CCof' on page 72 undefined on input line 570.
+
+
+LaTeX Warning: Reference `lst:mm_tc' on page 72 undefined on input line 570.
+
+
+LaTeX Warning: Citation `GraphReduce' on page 72 undefined on input line 577.
+
+
+LaTeX Warning: Citation `stinger' on page 72 undefined on input line 577.
+
+
+LaTeX Warning: Citation `CC' on page 72 undefined on input line 577.
+
+
+LaTeX Warning: Citation `CCof' on page 72 undefined on input line 577.
+
+[72]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 579.
+
+
+LaTeX Warning: Reference `dataset' on page 73 undefined on input line 597.
+
+
+LaTeX Warning: Citation `UFL' on page 73 undefined on input line 597.
+
+
+LaTeX Warning: Citation `graph500' on page 73 undefined on input line 597.
+
+<figures/3.png, id=3496, 1159.33125pt x 200.75pt> <use figures/3.png>
+Overfull \hbox (433.62001pt too wide) in paragraph at lines 606--607
+ [][] 
+<figures/2.png, id=3497, 1146.2825pt x 214.8025pt> <use figures/2.png>
+Overfull \hbox (433.62001pt too wide) in paragraph at lines 614--615
+ [][] 
+<figures/1.png, id=3498, 1113.15875pt x 209.78375pt> <use figures/1.png>
+Overfull \hbox (433.62001pt too wide) in paragraph at lines 622--623
+ [][] 
+<figures/4_2.png, id=3499, 1322.9425pt x 229.85875pt> <use figures/4_2.png>
+Overfull \hbox (433.62001pt too wide) in paragraph at lines 630--631
+ [][] 
+<figures/5.png, id=3500, 1308.89pt x 217.81375pt> <use figures/5.png>
+Overfull \hbox (433.62001pt too wide) in paragraph at lines 638--639
+ [][] 
+
+LaTeX Warning: Citation `GraphReduce' on page 73 undefined on input line 644.
+
+
+LaTeX Warning: Reference `fig:big_tc' on page 73 undefined on input line 644.
+
+
+LaTeX Warning: Reference `fig:big_cc' on page 73 undefined on input line 644.
+
+
+LaTeX Warning: Reference `fig:big_bfs' on page 73 undefined on input line 644.
+
+
+LaTeX Warning: Reference `fig:big_tc' on page 73 undefined on input line 644.
+
+
+LaTeX Warning: Reference `fig:big_cc' on page 73 undefined on input line 644.
+
+
+LaTeX Warning: Reference `fig:big_bfs' on page 73 undefined on input line 644.
+
+
+LaTeX Warning: Reference `fig:big_tc' on page 73 undefined on input line 644.
+
+
+LaTeX Warning: Reference `fig:big_cc' on page 73 undefined on input line 644.
+
+
+LaTeX Warning: Reference `fig:big_bfs' on page 73 undefined on input line 644.
+
+[73]
+
+LaTeX Warning: Reference `fig:big_tc' on page 74 undefined on input line 650.
+
+
+LaTeX Warning: Reference `fig:big_cc' on page 74 undefined on input line 650.
+
+
+LaTeX Warning: Reference `fig:big_bfs' on page 74 undefined on input line 650.
+
+[74]
+
+LaTeX Warning: Reference `fig:big_tc' on page 75 undefined on input line 652.
+
+
+LaTeX Warning: Reference `fig:big_bfs' on page 75 undefined on input line 652.
+
+
+LaTeX Warning: Reference `fig:big_tc' on page 75 undefined on input line 652.
+
+
+LaTeX Warning: Reference `fig:big_bfs' on page 75 undefined on input line 652.
+
+
+LaTeX Warning: Reference `fig:big_tc' on page 75 undefined on input line 655.
+
+
+LaTeX Warning: Reference `fig:big_bfs' on page 75 undefined on input line 655.
+
+<figures/Stinger_Evo.pdf, id=3508, 1008.76875pt x 256.96pt>
+<use figures/Stinger_Evo.pdf>
+
+LaTeX Warning: Reference `fig:prop' on page 75 undefined on input line 671.
+
+
+LaTeX Warning: Reference `tbl:table' on page 75 undefined on input line 671.
+
+[75]
+
+LaTeX Warning: Reference `fig:prop' on page 76 undefined on input line 673.
+
+
+LaTeX Warning: Reference `tbl:table' on page 76 undefined on input line 673.
+
+
+LaTeX Warning: Reference `fig:prop' on page 76 undefined on input line 675.
+
+
+LaTeX Warning: Reference `fig:five' on page 76 undefined on input line 677.
+
+[76]
+
+LaTeX Warning: Reference `fig:stinger' on page 77 undefined on input line 680.
+
+
+Overfull \hbox (2.50993pt too wide) in paragraph at lines 683--684
+\OT1/cmr/m/n/10.95 Experiments demon-strate that (1) Evo-Graphs in-cre-men-tal 
+ap-proach to pro-cess time-evolving
+[77]
+
+LaTeX Warning: Citation `chronos' on page 78 undefined on input line 688.
+
+
+LaTeX Warning: Citation `graphscope' on page 78 undefined on input line 688.
+
+
+LaTeX Warning: Citation `teg' on page 78 undefined on input line 688.
+
+[78]
+
+LaTeX Warning: Citation `stinger' on page 79 undefined on input line 690.
+
+
+LaTeX Warning: Citation `medusa' on page 79 undefined on input line 696.
+
+
+LaTeX Warning: Citation `mapgraph' on page 79 undefined on input line 696.
+
+
+LaTeX Warning: Citation `vertexapi' on page 79 undefined on input line 696.
+
+
+LaTeX Warning: Citation `cusha' on page 79 undefined on input line 696.
+
+[79]
+
+LaTeX Warning: Citation `pregel' on page 80 undefined on input line 698.
+
+
+LaTeX Warning: Citation `graphlab' on page 80 undefined on input line 698.
+
+
+LaTeX Warning: Citation `powergraph' on page 80 undefined on input line 698.
+
+
+LaTeX Warning: Citation `aspire' on page 80 undefined on input line 698.
+
+
+LaTeX Warning: Citation `chi' on page 80 undefined on input line 701.
+
+
+LaTeX Warning: Citation `xstream' on page 80 undefined on input line 701.
+
+
+LaTeX Warning: Citation `totem' on page 80 undefined on input line 701.
+
+
+LaTeX Warning: Citation `green' on page 80 undefined on input line 701.
+
+
+LaTeX Warning: Citation `chi' on page 80 undefined on input line 702.
+
+
+LaTeX Warning: Citation `xstream' on page 80 undefined on input line 702.
+
+[80])
+***************** References ******************
+[81] [82] [83 <./figures/3.png> <./figures/2.png> <./figures/1.png>] [84 <./fig
+ures/4_2.png> <./figures/5.png> <./figures/Stinger_Evo.pdf>]
+No file proposal.bbl.
+(./proposal.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information){/usr/local/texlive/2015/te
+xmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
+super/sfrm1095.pfb>
+Output written on proposal.pdf (89 pages, 6146960 bytes).
+Transcript written on proposal.log.
+bibtex proposal
+This is BibTeX, Version 0.99d (TeX Live 2015)
+The top-level auxiliary file: proposal.aux
+The style file: gatech-thesis.bst
+Database file #1: ref.bib
+Repeated entry---line 534 of file ref.bib
+ : @inproceedings{pagerank
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "vtdc"
+Warning--I didn't find a database entry for "cloud"
+Warning--I didn't find a database entry for "naila"
+Warning--I didn't find a database entry for "15"
+Warning--I didn't find a database entry for "16"
+Warning--I didn't find a database entry for "17"
+Warning--I didn't find a database entry for "18"
+Warning--I didn't find a database entry for "19"
+Warning--I didn't find a database entry for "titan"
+Warning--I didn't find a database entry for "linkbench"
+Warning--I didn't find a database entry for "twitter"
+Warning--I didn't find a database entry for "fb"
+Warning--I didn't find a database entry for "GR"
+Warning--I didn't find a database entry for "CC_new"
+Warning--I didn't find a database entry for "Ramalingam"
+Warning--I didn't find a database entry for "UFL"
+Warning--I didn't find a database entry for "graph500"
+Warning--I didn't find a database entry for "aspire"
+Warning--to sort, need author or key in vertexapi
+Warning--to sort, need author or key in kepler
+Warning--to sort, need author or key in yahoo
+Warning--to sort, need author or key in ak2010
+Warning--to sort, need author or key in coauthors
+Warning--to sort, need author or key in belgium
+Warning--to sort, need author or key in uk2002
+Warning--to sort, need author or key in cage15
+Warning--to sort, need author or key in UVA
+Warning--to sort, need author or key in cuda7
+Warning--to sort, need author or key in moderngpu
+Warning--empty author in cage15
+Warning--empty journal in cage15
+Warning--empty year in cage15
+Warning--empty author in cuda7
+Warning--empty journal in cuda7
+Warning--empty year in cuda7
+Warning--empty author in ak2010
+Warning--empty journal in ak2010
+Warning--empty year in ak2010
+Warning--empty author in belgium
+Warning--empty journal in belgium
+Warning--empty year in belgium
+Warning--empty author in coauthors
+Warning--empty journal in coauthors
+Warning--empty year in coauthors
+Warning--empty author in moderngpu
+Warning--empty journal in moderngpu
+Warning--empty year in moderngpu
+Warning--empty author in kepler
+Warning--empty journal in kepler
+Warning--empty year in kepler
+Warning--empty author in uk2002
+Warning--empty journal in uk2002
+Warning--empty year in uk2002
+Warning--empty author in UVA
+Warning--empty journal in UVA
+Warning--empty year in UVA
+Warning--empty author in vertexapi
+Warning--empty journal in vertexapi
+Warning--empty year in vertexapi
+Warning--empty author in yahoo
+Warning--empty journal in yahoo
+Warning--empty year in yahoo
+Warning--empty booktitle in chronos
+Warning--empty journal in pagerank
+Warning--empty journal in medusa
+(There was 1 error message)

@@ -1,0 +1,655 @@
+\begin{thebibliography}{100}
+
+\bibitem{adobe}
+``{Adobe Photoshop.com: } http://www.photoshop.com/,''
+
+\bibitem{amazon}
+``{Amazon EC2 GPU cluster: } http://aws.amazon.com/about-aws/whats-
+  new/2010/11/15/announcing-cluster-gpu-instances-for-amazon-ec2/,''
+
+\bibitem{cage15}
+``{Cage15:} www.cise.ufl.edu/research/sparse/matrices/vanheukelum,''
+
+\bibitem{cuda7}
+``{CUDA 7.0:} https://developer.nvidia.com/cuda-downloads/,''
+
+\bibitem{spec}
+``{Design document SSJ workload, SPECpower\_ssj2008: }
+  http://www.spec.org/power\_ssj2008,''
+
+\bibitem{ak2010}
+``{DIMACS10 ak2010:} www.cise.ufl.edu/research/sparse/matrices/dimacs10,''
+
+\bibitem{belgium}
+``{DIMACS10 belgium\_osm:}
+  www.cise.ufl.edu/research/sparse/matrices/dimacs10,''
+
+\bibitem{coauthors}
+``{DIMACS10 coAuthorsDBLP:} www.cc.gatech.edu/dimacs10/data/coauthor/,''
+
+\bibitem{element}
+``{Elemental Technologies: } http://tinyurl.com/bcj3jet,''
+
+\bibitem{moderngpu}
+``{Modern GPU library:}http://nvlabs.github.io/moderngpu/,''
+
+\bibitem{nimbix}
+``{Nimbix: } http://www.nimbix.net/cloud-supercomputing/,''
+
+\bibitem{nvidia-game}
+``{NVIDIA cloud gaming: } http://www.nvidia.com/object/cloud- gaming.html,''
+
+\bibitem{kepler}
+``{NVIDIA Kepler GK110 white paper. 2012}
+  https://www.nvidia.com/content/pdf/kepler/nvidia-kepler-gk110-architecture-whitepaper.pdf,''
+
+\bibitem{opencv}
+``{OPENCV:} http://opencv.org/,''
+
+\bibitem{peer1}
+``{Peer1 hosting: } http://www.peer1hosting.co.uk/hosting/gpu-servers,''
+
+\bibitem{penguin}
+``{Penguin computing: } http://www.penguincomputing.com/services/hpc-cloud/,''
+
+\bibitem{rodinia}
+``{Rodinia: }
+  https://www.cs.virginia.edu/~skadron/wiki/rodinia/index.php/rodinia:accelerating\_compute-intensive\_applications\_with\_accelerators,''
+
+\bibitem{titan}
+``{Top 500 List:} http://www.top500.org/system/177975,''
+
+\bibitem{twitter}
+``{Twitter Statistics:} http://tinyurl.com/kcuhdcw,''
+
+\bibitem{uk2002}
+``{uk-2002:} http://law.di.unimi.it/webdata/uk-2002/,''
+
+\bibitem{UVA}
+``{Unified Virtual Addressing:}
+  http://devblogs.nvidia.com/parallelforall/unified-memory-in-cuda-6/,''
+
+\bibitem{vertexapi}
+``{VertexAPI2:} http://www.royal-caliber.com/main.html. 2015,''
+
+\bibitem{GPU32}
+``{Wong, T., Preissl, R., Datta, P., Flickner, M., Singh, R., Esser, S.,
+  McQuinn, E., Appuswamy, R., Risk, W., and Simon, H., $10^{14}$ IBM Research
+  Divsion, Research Report RJ10502, 2012},''
+
+\bibitem{yahoo}
+``{Yahoo WebScope: G7} webscope.sandbox.yahoo.com/catalog.php?datatype=g,''
+
+\bibitem{zillians}
+``{Zillians: } http://www.zillians.com/solutions/,''
+
+\bibitem{GPU29}
+{\sc Amir, A.}, {\sc Datta, P.}, {\sc Risk, W.~P.}, {\sc Cassidy, A.~S.}, {\sc
+  Kusnitz, J.~A.}, {\sc Esser, S.~K.}, {\sc Andreopoulos, E.}, {\sc Wong,
+  T.~M.}, {\sc Flickner, M.}, {\sc Alvarez-icaza, R.}, {\sc Mcquinn, E.}, {\sc
+  Shaw, B.}, {\sc Pass, N.}, and {\sc Modha, D.~S.}, ``Cognitive computing
+  programming paradigm: A corelet language for composing networks of
+  neurosynaptic cores.''
+
+\bibitem{linkbench}
+{\sc Armstrong, T.~G.}, {\sc Ponnekanti, V.}, {\sc Borthakur, D.}, and {\sc
+  Callaghan, M.}, ``Linkbench: A database benchmark based on the facebook
+  social graph,'' in {\em Proceedings of the 2013 ACM SIGMOD International
+  Conference on Management of Data}, SIGMOD '13, (New York, NY, USA),
+  pp.~1185--1196, ACM, 2013.
+
+\bibitem{starpu}
+{\sc Augonnet, C.}, {\sc Thibault, S.}, {\sc Namyst, R.}, and {\sc Wacrenier,
+  P.-A.}, ``Starpu: A unified platform for task scheduling on heterogeneous
+  multicore architectures,'' {\em Concurr. Comput. : Pract. Exper.}, vol.~23,
+  pp.~187--198, Feb. 2011.
+
+\bibitem{pagerank}
+{\sc Bahmani, B.}, {\sc Kumar, R.}, {\sc Mahdian, M.}, and {\sc Upfal, E.},
+  ``Pagerank on an evolving graph,'' in {\em Proceedings of the 18th ACM SIGKDD
+  International Conference on Knowledge Discovery and Data Mining}, KDD '12,
+  (New York, NY, USA), pp.~24--32, ACM, 2012.
+
+\bibitem{15}
+{\sc Becchi, M.}, {\sc Byna, S.}, {\sc Cadambi, S.}, and {\sc Chakradhar, S.},
+  ``Data-aware scheduling of legacy kernels on heterogeneous platforms with
+  distributed memory,'' in {\em Proceedings of the Twenty-second Annual ACM
+  Symposium on Parallelism in Algorithms and Architectures}, SPAA '10, (New
+  York, NY, USA), pp.~82--91, ACM, 2010.
+
+\bibitem{becchi}
+{\sc Becchi, M.}, {\sc Sajjapongse, K.}, {\sc Graves, I.}, {\sc Procter, A.},
+  {\sc Ravi, V.}, and {\sc Chakradhar, S.}, ``A virtual memory based runtime to
+  support multi-tenancy in clusters with gpus,'' in {\em Proceedings of the
+  21st International Symposium on High-Performance Parallel and Distributed
+  Computing}, HPDC '12, (New York, NY, USA), pp.~97--108, ACM, 2012.
+
+\bibitem{csr}
+{\sc Bell, N.} and {\sc Garland, M.}, ``Efficient sparse matrix-vector
+  multiplication on {CUDA},'' NVIDIA Technical Report NVR-2008-004, NVIDIA
+  Corporation, Dec. 2008.
+
+\bibitem{numa}
+{\sc Blagodurov, S.}, {\sc Zhuravlev, S.}, {\sc Dashti, M.}, and {\sc Fedorova,
+  A.}, ``A case for numa-aware contention management on multicore systems,'' in
+  {\em Proceedings of the 2011 USENIX Conference on USENIX Annual Technical
+  Conference}, USENIXATC'11, (Berkeley, CA, USA), pp.~1--1, USENIX Association,
+  2011.
+
+\bibitem{exascale5}
+{\sc Brightwell, R.}, {\sc Barrett, B.~W.}, {\sc Hemmert, K.~S.}, and {\sc
+  Underwood, K.~D.}, ``Challenges for high-performance networking for exascale
+  computing,'' in {\em Computer Communications and Networks (ICCCN), 2010
+  Proceedings of 19th International Conference on}, pp.~1--6, Aug 2010.
+
+\bibitem{exascale3}
+{\sc Broekema, P.~C.}, {\sc van Nieuwpoort, R.~V.}, and {\sc Bal, H.~E.},
+  ``Exascale high performance computing in the square kilometer array,'' in
+  {\em Proceedings of the 2012 Workshop on High-Performance Computing for
+  Astronomy Date}, Astro-HPC '12, (New York, NY, USA), pp.~9--16, ACM, 2012.
+
+\bibitem{phi}
+{\sc Cadambi, S.}, {\sc Coviello, G.}, {\sc Li, C.-H.}, {\sc Phull, R.}, {\sc
+  Rao, K.}, {\sc Sankaradass, M.}, and {\sc Chakradhar, S.}, ``Cosmic:
+  Middleware for high performance and reliable multiprocessing on xeon phi
+  coprocessors,'' in {\em Proceedings of the 22Nd International Symposium on
+  High-performance Parallel and Distributed Computing}, HPDC '13, (New York,
+  NY, USA), pp.~215--226, ACM, 2013.
+
+\bibitem{exascale7}
+{\sc Cappello, F.}, {\sc Geist, A.}, {\sc Gropp, B.}, {\sc Kale, L.}, {\sc
+  Kramer, B.}, and {\sc Snir, M.}, ``Toward exascale resilience,'' {\em Int. J.
+  High Perform. Comput. Appl.}, vol.~23, pp.~374--388, Nov. 2009.
+
+\bibitem{GPU30}
+{\sc Cassidy, A.~S.}, {\sc Merolla, P.}, {\sc Arthur, J.~V.}, {\sc Esser,
+  S.~K.}, {\sc Jackson, B.}, {\sc Alvarez-icaza, R.}, {\sc Datta, P.}, {\sc
+  Sawada, J.}, {\sc Wong, T.~M.}, {\sc Feldman, V.}, {\sc Amir, A.}, {\sc dayan
+  Rubin, D.~B.}, {\sc Mcquinn, E.}, {\sc Risk, W.~P.}, and {\sc Modha, D.~S.},
+  ``Cognitive computing building block: A versatile and efficient digital
+  neuron model for neurosynaptic cores,'' in {\em in International Joint
+  Conference on Neural Networks (IJCNN). IEEE}, 2013.
+
+\bibitem{fb}
+{\sc Ching, A.}, {\sc Edunov, S.}, {\sc Kabiljo, M.}, {\sc Logothetis, D.}, and
+  {\sc Muthukrishnan, S.}, ``One trillion edges: Graph processing at
+  facebook-scale,'' {\em Proc. VLDB Endow.}, vol.~8, pp.~1804--1815, Aug. 2015.
+
+\bibitem{exascale2}
+{\sc De~Bosschere, K.}, {\sc D'Hollander, E.}, {\sc Joubert, G.~R.}, {\sc
+  Padua, D.}, {\sc Peters, F.}, and {\sc Sawyer, M.}, eds., {\em Applications,
+  tools and techniques on the road to exascale computing}, vol.~22 of {\em
+  Advances in Parallel Computing}.
+\newblock IOS press, Inc., 2012.
+
+\bibitem{ocelot}
+{\sc Diamos, G.~F.}, {\sc Kerr, A.~R.}, {\sc Yalamanchili, S.}, and {\sc Clark,
+  N.}, ``Ocelot: A dynamic optimization framework for bulk-synchronous
+  applications in heterogeneous systems,'' in {\em Proceedings of the 19th
+  International Conference on Parallel Architectures and Compilation
+  Techniques}, PACT '10, (New York, NY, USA), pp.~353--364, ACM, 2010.
+
+\bibitem{ASSP}
+{\sc Djidjev, H.}, {\sc Thulasidasan, S.}, {\sc Chapuis, G.}, {\sc Andonov,
+  R.}, and {\sc Lavenier, D.}, ``Efficient multi-gpu computation of all-pairs
+  shortest paths,'' in {\em Parallel and Distributed Processing Symposium, 2014
+  IEEE 28th International}, pp.~360--369, May 2014.
+
+\bibitem{rcuda}
+{\sc Duato, J.}, {\sc Pena, A.}, {\sc Silla, F.}, {\sc Mayo, R.}, and {\sc
+  Quintana-Ortí, E.}, ``rcuda: Reducing the number of gpu-based accelerators in
+  high performance clusters,'' in {\em High Performance Computing and
+  Simulation (HPCS), 2010 International Conference on}, pp.~224--231, June
+  2010.
+
+\bibitem{Duong}
+{\sc Duong, N.~T.}, {\sc Nguyen, Q. A.~P.}, {\sc Nguyen, A.~T.}, and {\sc
+  Nguyen, H.-D.}, ``Parallel pagerank computation using gpus,'' in {\em
+  Proceedings of the Third Symposium on Information and Communication
+  Technology}, SoICT '12, (New York, NY, USA), pp.~223--230, ACM, 2012.
+
+\bibitem{CCof}
+{\sc Ediger, D.}, {\sc Jiang, K.}, {\sc Riedy, J.}, and {\sc Bader, D.},
+  ``Massive streaming data analytics: A case study with clustering
+  coefficients,'' in {\em Parallel Distributed Processing, Workshops and Phd
+  Forum (IPDPSW), 2010 IEEE International Symposium on}, pp.~1--8, April 2010.
+
+\bibitem{stinger}
+{\sc Ediger, D.}, {\sc McColl, R.}, {\sc Riedy, J.}, and {\sc Bader, D.},
+  ``Stinger: High performance data structure for streaming graphs,'' in {\em
+  High Performance Extreme Computing (HPEC), 2012 IEEE Conference on},
+  pp.~1--5, Sept 2012.
+
+\bibitem{CC}
+{\sc Ediger, D.}, {\sc Riedy, J.}, {\sc Bader, D.}, and {\sc Meyerhenke, H.},
+  ``Tracking structure of streaming social networks,'' in {\em Parallel and
+  Distributed Processing Workshops and Phd Forum (IPDPSW), 2011 IEEE
+  International Symposium on}, pp.~1691--1699, May 2011.
+
+\bibitem{GPU31}
+{\sc Esser, S.~K.}, {\sc Andreopoulos, E.}, {\sc Datta, P.}, {\sc Barch, D.},
+  {\sc Amir, A.}, {\sc Arthur, J.}, {\sc Cassidy, A.}, {\sc Flickner, M.}, {\sc
+  Merolla, P.}, {\sc Ch, S.}, {\sc Basilico, N.}, {\sc Carpin, S.}, {\sc
+  Zimmerman, T.}, {\sc Zee, F.}, {\sc Alvarez-icaza, R.}, {\sc Kusnitz, J.~A.},
+  {\sc Wong, T.~M.}, {\sc Risk, W.~P.}, {\sc Mcquinn, E.}, {\sc Nayak, T.~K.},
+  {\sc Singh, R.}, and {\sc Modha, D.~S.}, ``Cognitive computing systems:
+  Algorithms and applications for networks of neurosynaptic cores.''
+
+\bibitem{teg}
+{\sc Fard, A.}, {\sc Abdolrashidi, A.}, {\sc Ramaswamy, L.}, and {\sc Miller,
+  J.}, ``Towards efficient query processing on massive time-evolving graphs,''
+  in {\em Collaborative Computing: Networking, Applications and Worksharing
+  (CollaborateCom), 2012 8th International Conference on}, pp.~567--574, Oct
+  2012.
+
+\bibitem{naila}
+{\sc Farooqui, N.}, {\sc Schwan, K.}, and {\sc Yalamanchili, S.}, ``Efficient
+  instrumentation of gpgpu applications using information flow analysis and
+  symbolic execution,'' in {\em Proceedings of Workshop on General Purpose
+  Processing Using GPUs}, GPGPU-7, (New York, NY, USA), pp.~19:19--19:27, ACM,
+  2014.
+
+\bibitem{mapgraph}
+{\sc Fu, Z.}, {\sc Personick, M.}, and {\sc Thompson, B.}, ``Mapgraph: A high
+  level api for fast development of high performance graph analytics on gpus,''
+  in {\em Proceedings of Workshop on GRAph Data Management Experiences and
+  Systems}, GRADES'14, (New York, NY, USA), pp.~2:1--2:6, ACM, 2014.
+
+\bibitem{totem}
+{\sc Gharaibeh, A.}, {\sc Beltr\~{a}o Costa, L.}, {\sc Santos-Neto, E.}, and
+  {\sc Ripeanu, M.}, ``A yoke of oxen and a thousand chickens for heavy lifting
+  graph processing,'' in {\em Proceedings of the 21st International Conference
+  on Parallel Architectures and Compilation Techniques}, PACT '12, (New York,
+  NY, USA), pp.~345--354, ACM, 2012.
+
+\bibitem{exascale4}
+{\sc Gioiosa, R.}, ``Towards sustainable exascale computing,'' in {\em 2010
+  18th IEEE/IFIP International Conference on VLSI and System-on-Chip},
+  pp.~270--275, Sept 2010.
+
+\bibitem{gvirtus}
+{\sc Giunta, G.}, {\sc Montella, R.}, {\sc Agrillo, G.}, and {\sc Coviello,
+  G.}, ``A gpgpu transparent virtualization component for high performance
+  computing clouds,'' in {\em Proceedings of the 16th International Euro-Par
+  Conference on Parallel Processing: Part I}, EuroPar'10, (Berlin, Heidelberg),
+  pp.~379--391, Springer-Verlag, 2010.
+
+\bibitem{powergraph}
+{\sc Gonzalez, J.~E.}, {\sc Low, Y.}, {\sc Gu, H.}, {\sc Bickson, D.}, and {\sc
+  Guestrin, C.}, ``Powergraph: Distributed graph-parallel computation on
+  natural graphs,'' in {\em Presented as part of the 10th USENIX Symposium on
+  Operating Systems Design and Implementation (OSDI 12)}, (Hollywood, CA),
+  pp.~17--30, USENIX, 2012.
+
+\bibitem{GPU5}
+{\sc Guevara, M.}, {\sc Gregg, C.}, {\sc Hazelwood, K.}, and {\sc Skadron, K.},
+  ``Enabling task parallelism in the cuda scheduler.''
+
+\bibitem{gvim}
+{\sc Gupta, V.}, {\sc Gavrilovska, A.}, {\sc Schwan, K.}, {\sc Kharche, H.},
+  {\sc Tolia, N.}, {\sc Talwar, V.}, and {\sc Ranganathan, P.}, ``Gvim:
+  Gpu-accelerated virtual machines,'' in {\em Proceedings of the 3rd ACM
+  Workshop on System-level Virtualization for High Performance Computing},
+  HPCVirt '09, (New York, NY, USA), pp.~17--24, ACM, 2009.
+
+\bibitem{pegasus}
+{\sc Gupta, V.}, {\sc Schwan, K.}, {\sc Tolia, N.}, {\sc Talwar, V.}, and {\sc
+  Ranganathan, P.}, ``Pegasus: Coordinated scheduling for virtualized
+  accelerator-based systems,'' in {\em Proceedings of the 2011 USENIX
+  Conference on USENIX Annual Technical Conference}, USENIXATC'11, (Berkeley,
+  CA, USA), pp.~3--3, USENIX Association, 2011.
+
+\bibitem{chronos}
+{\sc Han, W.}, {\sc Miao, Y.}, {\sc Li, K.}, {\sc Wu, M.}, {\sc Yang, F.}, {\sc
+  Zhou, L.}, {\sc Prabhakaran, V.}, {\sc Chen, W.}, and {\sc Chen, E.},
+  ``Chronos: A graph engine for temporal graph analysis,'' in {\em Proceedings
+  of the Ninth European Conference on Computer Systems}, EuroSys '14, (New
+  York, NY, USA), pp.~1:1--1:14, ACM, 2014.
+
+\bibitem{green}
+{\sc Hong, S.}, {\sc Chafi, H.}, {\sc Sedlar, E.}, and {\sc Olukotun, K.},
+  ``Green-marl: A dsl for easy and efficient graph analysis,'' in {\em
+  Proceedings of the Seventeenth International Conference on Architectural
+  Support for Programming Languages and Operating Systems}, ASPLOS XVII, (New
+  York, NY, USA), pp.~349--362, ACM, 2012.
+
+\bibitem{Hong}
+{\sc Hong, S.}, {\sc Kim, S.~K.}, {\sc Oguntebi, T.}, and {\sc Olukotun, K.},
+  ``Accelerating cuda graph algorithms at maximum warp,'' in {\em Proceedings
+  of the 16th ACM Symposium on Principles and Practice of Parallel
+  Programming}, PPoPP '11, (New York, NY, USA), pp.~267--276, ACM, 2011.
+
+\bibitem{pact}
+{\sc Hong, S.}, {\sc Oguntebi, T.}, and {\sc Olukotun, K.}, ``Efficient
+  parallel graph exploration on multi-core cpu and gpu,'' in {\em Parallel
+  Architectures and Compilation Techniques (PACT), 2011 International
+  Conference on}, pp.~78--88, Oct 2011.
+
+\bibitem{jain}
+{\sc Jain, R.}, {\sc Chiu, D.}, and {\sc Hawe, W.}, ``A quantitative measure of
+  fairness and discrimination for resource allocation in shared computer
+  systems,'' {\em CoRR}, vol.~cs.NI/9809099, 1998.
+
+\bibitem{gdev}
+{\sc Kato, S.}, {\sc McThrow, M.}, {\sc Maltzahn, C.}, and {\sc Brandt, S.},
+  ``Gdev: First-class gpu resource management in the operating system,'' in
+  {\em Proceedings of the 2012 USENIX Conference on Annual Technical
+  Conference}, USENIX ATC'12, (Berkeley, CA, USA), pp.~37--37, USENIX
+  Association, 2012.
+
+\bibitem{cusha}
+{\sc Khorasani, F.}, {\sc Vora, K.}, {\sc Gupta, R.}, and {\sc Bhuyan, L.~N.},
+  ``Cusha: Vertex-centric graph processing on gpus,'' in {\em Proceedings of
+  the 23rd International Symposium on High-performance Parallel and Distributed
+  Computing}, HPDC '14, (New York, NY, USA), pp.~239--252, ACM, 2014.
+
+\bibitem{GPUsearch}
+{\sc Kim, C.}, {\sc Chhugani, J.}, {\sc Satish, N.}, {\sc Sedlar, E.}, {\sc
+  Nguyen, A.~D.}, {\sc Kaldewey, T.}, {\sc Lee, V.~W.}, {\sc Brandt, S.~A.},
+  and {\sc Dubey, P.}, ``Fast: Fast architecture sensitive tree search on
+  modern cpus and gpus,'' in {\em Proceedings of the 2010 ACM SIGMOD
+  International Conference on Management of Data}, SIGMOD '10, (New York, NY,
+  USA), pp.~339--350, ACM, 2010.
+
+\bibitem{atlas}
+{\sc Kim, Y.}, {\sc Han, D.}, {\sc Mutlu, O.}, and {\sc Harchol-Balter, M.},
+  ``Atlas: A scalable and high-performance scheduling algorithm for multiple
+  memory controllers,'' in {\em HPCA - 16 2010 The Sixteenth International
+  Symposium on High-Performance Computer Architecture}, pp.~1--12, Jan 2010.
+
+\bibitem{GPU43}
+{\sc Krieder, S.~J.}, {\sc Wozniak, J.~M.}, {\sc Armstrong, T.}, {\sc Wilde,
+  M.}, {\sc Katz, D.~S.}, {\sc Grimmer, B.}, {\sc Foster, I.~T.}, and {\sc
+  Raicu, I.}, ``Design and evaluation of the gemtc framework for gpu-enabled
+  many-task computing,'' in {\em Proceedings of the 23rd International
+  Symposium on High-performance Parallel and Distributed Computing}, HPDC '14,
+  (New York, NY, USA), pp.~153--164, ACM, 2014.
+
+\bibitem{chi}
+{\sc Kyrola, A.}, {\sc Blelloch, G.}, and {\sc Guestrin, C.}, ``Graphchi:
+  Large-scale graph computation on just a pc,'' in {\em Proceedings of the 10th
+  USENIX Conference on Operating Systems Design and Implementation}, OSDI'12,
+  (Berkeley, CA, USA), pp.~31--46, USENIX Association, 2012.
+
+\bibitem{GPUmine}
+{\sc Kysenko, V.}, {\sc Rupp, K.}, {\sc Marchenko, O.}, {\sc Selberherr, S.},
+  and {\sc Anisimov, A.}, ``Natural language processing and information
+  systems: 17th international conference on applications of natural language to
+  information systems, nldb 2012, groningen, the netherlands, june 26-28, 2012.
+  proceedings,'' (Berlin, Heidelberg), pp.~158--163, Springer Berlin
+  Heidelberg, 2012.
+
+\bibitem{exascale6}
+{\sc Lauderdale, C.} and {\sc Khan, R.}, ``Towards a codelet-based runtime for
+  exascale computing: Position paper,'' in {\em Proceedings of the 2Nd
+  International Workshop on Adaptive Self-Tuning Computing Systems for the
+  Exaflop Era}, EXADAPT '12, (New York, NY, USA), pp.~21--26, ACM, 2012.
+
+\bibitem{jure}
+{\sc Leskovec, J.}, {\sc Lang, K.~J.}, {\sc Dasgupta, A.}, and {\sc Mahoney,
+  M.~W.}, ``Community structure in large networks: Natural cluster sizes and
+  the absence of large well-defined clusters,'' 2008.
+
+\bibitem{GR25}
+{\sc Li, C.}, {\sc Song, S.~L.}, {\sc Dai, H.}, {\sc Sidelnik, A.}, {\sc Hari,
+  S. K.~S.}, and {\sc Zhou, H.}, ``Locality-driven dynamic gpu cache
+  bypassing,'' in {\em Proceedings of the 29th ACM on International Conference
+  on Supercomputing}, ICS '15, (New York, NY, USA), pp.~67--77, ACM, 2015.
+
+\bibitem{liedtke}
+{\sc Liedtke, J.}, ``On micro-kernel construction,'' in {\em Proceedings of the
+  Fifteenth ACM Symposium on Operating Systems Principles}, SOSP '95, (New
+  York, NY, USA), pp.~237--250, ACM, 1995.
+
+\bibitem{graphlab}
+{\sc Low, Y.}, {\sc Gonzalez, J.~E.}, {\sc Kyrola, A.}, {\sc Bickson, D.}, {\sc
+  Guestrin, C.~E.}, and {\sc Hellerstein, J.}, ``Graphlab: A new framework for
+  parallel machine learning,'' {\em arXiv preprint arXiv:1408.2041}, 2014.
+
+\bibitem{16}
+{\sc Luk, C.-K.}, {\sc Hong, S.}, and {\sc Kim, H.}, ``Qilin: Exploiting
+  parallelism on heterogeneous multiprocessors with adaptive mapping,'' in {\em
+  Proceedings of the 42Nd Annual IEEE/ACM International Symposium on
+  Microarchitecture}, MICRO 42, (New York, NY, USA), pp.~45--55, ACM, 2009.
+
+\bibitem{ppl}
+{\sc LUMSDAINE, A.}, {\sc GREGOR, D.}, {\sc HENDRICKSON, B.}, and {\sc BERRY,
+  J.}, ``Challenges in parallel graph processing,'' {\em Parallel Processing
+  Letters}, vol.~17, no.~01, pp.~5--20, 2007.
+
+\bibitem{pregel}
+{\sc Malewicz, G.}, {\sc Austern, M.~H.}, {\sc Bik, A.~J.}, {\sc Dehnert,
+  J.~C.}, {\sc Horn, I.}, {\sc Leiser, N.}, and {\sc Czajkowski, G.}, ``Pregel:
+  A system for large-scale graph processing,'' in {\em Proceedings of the 2010
+  ACM SIGMOD International Conference on Management of Data}, SIGMOD '10, (New
+  York, NY, USA), pp.~135--146, ACM, 2010.
+
+\bibitem{CC_new}
+{\sc McColl, R.}, {\sc Green, O.}, and {\sc Bader, D.~A.}, ``A new parallel
+  algorithm for connected components in dynamic graphs,'' in {\em 20th Annual
+  International Conference on High Performance Computing}, pp.~246--255, Dec
+  2013.
+
+\bibitem{Merrill}
+{\sc Merrill, D.}, {\sc Garland, M.}, and {\sc Grimshaw, A.}, ``Scalable gpu
+  graph traversal,'' in {\em Proceedings of the 17th ACM SIGPLAN Symposium on
+  Principles and Practice of Parallel Programming}, PPoPP '12, (New York, NY,
+  USA), pp.~117--128, ACM, 2012.
+
+\bibitem{shadowfax}
+{\sc Merritt, A.~M.}, {\sc Gupta, V.}, {\sc Verma, A.}, {\sc Gavrilovska, A.},
+  and {\sc Schwan, K.}, ``Shadowfax: Scaling in heterogeneous cluster systems
+  via gpgpu assemblies,'' in {\em Proceedings of the 5th International Workshop
+  on Virtualization Technologies in Distributed Computing}, VTDC '11, (New
+  York, NY, USA), pp.~3--10, ACM, 2011.
+
+\bibitem{graph500}
+{\sc Murphy, R.~C.}, {\sc Wheeler, K.}, {\sc Barrett, B.}, and {\sc Ang,
+  J.~A.}, ``Introducing the graph 500.,'' in {\em Cray Userâ€™s Group (CUG)},
+  2010.
+
+\bibitem{phull}
+{\sc Phull, R.}, {\sc Li, C.-H.}, {\sc Rao, K.}, {\sc Cadambi, H.}, and {\sc
+  Chakradhar, S.}, ``Interference-driven resource management for gpu-based
+  heterogeneous clusters,'' in {\em Proceedings of the 21st International
+  Symposium on High-Performance Parallel and Distributed Computing}, HPDC '12,
+  (New York, NY, USA), pp.~109--120, ACM, 2012.
+
+\bibitem{GPU33}
+{\sc Preissl, R.}, {\sc Wong, T.~M.}, {\sc Datta, P.}, {\sc Flickner, M.}, {\sc
+  Singh, R.}, {\sc Esser, S.~K.}, {\sc Risk, W.~P.}, {\sc Simon, H.~D.}, and
+  {\sc Modha, D.~S.}, ``Compass: A scalable simulator for an architecture for
+  cognitive computing,'' in {\em Proceedings of the International Conference on
+  High Performance Computing, Networking, Storage and Analysis}, SC '12, (Los
+  Alamitos, CA, USA), pp.~54:1--54:11, IEEE Computer Society Press, 2012.
+
+\bibitem{symphony}
+{\sc Rafique, M.~M.}, {\sc Cadambi, S.}, {\sc Rao, K.}, {\sc Butt, A.~R.}, and
+  {\sc Chakradhar, S.}, ``Symphony: A scheduler for client-server applications
+  on coprocessor-based heterogeneous clusters,'' in {\em Proceedings of the
+  2011 IEEE International Conference on Cluster Computing}, CLUSTER '11,
+  (Washington, DC, USA), pp.~353--362, IEEE Computer Society, 2011.
+
+\bibitem{Ramalingam}
+{\sc Ramalingam, G.} and {\sc Reps, T.}, ``An incremental algorithm for a
+  generalization of the shortest-path problem,'' {\em J. Algorithms}, vol.~21,
+  pp.~267--305, Sept. 1996.
+
+\bibitem{ravi}
+{\sc Ravi, V.~T.}, {\sc Becchi, M.}, {\sc Agrawal, G.}, and {\sc Chakradhar,
+  S.}, ``Supporting gpu sharing in cloud environments with a transparent
+  runtime consolidation framework,'' in {\em Proceedings of the 20th
+  International Symposium on High Performance Distributed Computing}, HPDC '11,
+  (New York, NY, USA), pp.~217--228, ACM, 2011.
+
+\bibitem{17}
+{\sc Ravi, V.~T.}, {\sc Ma, W.}, {\sc Chiu, D.}, and {\sc Agrawal, G.},
+  ``Compiler and runtime support for enabling generalized reduction
+  computations on heterogeneous parallel configurations,'' in {\em Proceedings
+  of the 24th ACM International Conference on Supercomputing}, ICS '10, (New
+  York, NY, USA), pp.~137--146, ACM, 2010.
+
+\bibitem{queue}
+{\sc Righter, R.} and {\sc Shanthikumar, J.~G.}, ``Scheduling multiclass single
+  server queueing systems to stochastically maximize the number of successful
+  departures,'' {\em Probability in the Engineering and Informational
+  Sciences}, vol.~3, pp.~323--333, 7 1989.
+
+\bibitem{kron20}
+{\sc Rossi, R.~A.} and {\sc Ahmed, N.~K.}, ``Networkrepository: {A} graph data
+  repository with visual interactive analytics,'' vol.~abs/1410.3560, 2014.
+
+\bibitem{xstream}
+{\sc Roy, A.}, {\sc Mihailovic, I.}, and {\sc Zwaenepoel, W.}, ``X-stream:
+  Edge-centric graph processing using streaming partitions,'' in {\em
+  Proceedings of the Twenty-Fourth ACM Symposium on Operating Systems
+  Principles}, SOSP '13, (New York, NY, USA), pp.~472--488, ACM, 2013.
+
+\bibitem{nlpktt}
+{\sc Schenk, O.}, {\sc Wächter, A.}, and {\sc Weiser, M.}, ``Inertia-revealing
+  preconditioning for large-scale nonconvex constrained optimization,'' {\em
+  SIAM Journal on Scientific Computing}, vol.~31, no.~2, pp.~939--960, 2009.
+
+\bibitem{GR}
+{\sc Sengupta, D.}, {\sc Agarwal, K.}, {\sc Song, S.~L.}, and {\sc Schwan, K.},
+  ``Graphreduce: Large-scale graph analytics on accelerator-based hpc
+  systems,'' in {\em Parallel and Distributed Processing Symposium Workshop
+  (IPDPSW), 2015 IEEE International}, pp.~604--609, May 2015.
+
+\bibitem{Rain}
+{\sc Sengupta, D.}, {\sc Belapure, R.}, and {\sc Schwan, K.}, ``Multi-tenancy
+  on gpgpu-based servers,'' in {\em Proceedings of the 7th International
+  Workshop on Virtualization Technologies in Distributed Computing}, VTDC '13,
+  (New York, NY, USA), pp.~3--10, ACM, 2013.
+
+\bibitem{Strings}
+{\sc Sengupta, D.}, {\sc Goswami, A.}, {\sc Schwan, K.}, and {\sc Pallavi, K.},
+  ``Scheduling multi-tenant cloud workloads on accelerator-based systems,'' in
+  {\em Proceedings of the International Conference for High Performance
+  Computing, Networking, Storage and Analysis}, SC '14, (Piscataway, NJ, USA),
+  pp.~513--524, IEEE Press, 2014.
+
+\bibitem{GraphReduce}
+{\sc Sengupta, D.}, {\sc Song, S.~L.}, {\sc Agarwal, K.}, and {\sc Schwan, K.},
+  ``Graphreduce: Processing large-scale graphs on accelerator-based systems,''
+  in {\em Proceedings of the International Conference for High Performance
+  Computing, Networking, Storage and Analysis}, SC '15, (New York, NY, USA),
+  pp.~28:1--28:12, ACM, 2015.
+
+\bibitem{graphin}
+{\sc Sengupta, D.}, {\sc Sundaram, N.}, {\sc Zhu, X.}, {\sc Willke, T.~L.},
+  {\sc Young, J.}, {\sc Wolf, M.}, and {\sc Schwan, K.}, ``Graphin: An online
+  high performance incremental graph processing framework,'' in {\em
+  Proceedings of the 22nd International European Conference on Parallel
+  Processing}, Euro-Par '16, (Grenoble, France), 2016.
+
+\bibitem{nemu}
+{\sc Sengupta, D.}, {\sc Wang, Q.}, {\sc Volos, H.}, {\sc Cherkasova, L.}, {\sc
+  Li, J.}, {\sc Magalhaes, G.}, and {\sc Schwan, K.}, ``A framework for
+  emulating non-volatile memory systemswith different performance
+  characteristics,'' in {\em Proceedings of the 6th ACM/SPEC International
+  Conference on Performance Engineering}, ICPE '15, (New York, NY, USA),
+  pp.~317--320, ACM, 2015.
+
+\bibitem{exascale1}
+{\sc Shalf, J.}, {\sc Dosanjh, S.}, and {\sc Morrison, J.}, ``Exascale
+  computing technology challenges,'' in {\em Proceedings of the 9th
+  International Conference on High Performance Computing for Computational
+  Science}, VECPAR'10, (Berlin, Heidelberg), pp.~1--25, Springer-Verlag, 2011.
+
+\bibitem{vcuda}
+{\sc Shi, L.}, {\sc Chen, H.}, {\sc Sun, J.}, and {\sc Li, K.}, ``vcuda:
+  Gpu-accelerated high-performance computing in virtual machines,'' {\em IEEE
+  Transactions on Computers}, vol.~61, pp.~804--816, June 2012.
+
+\bibitem{ligra}
+{\sc Shun, J.} and {\sc Blelloch, G.~E.}, ``Ligra: A lightweight graph
+  processing framework for shared memory,'' pp.~135--146, 2013.
+
+\bibitem{cloudbench}
+{\sc Silva, M.}, {\sc Hines, M.~R.}, {\sc Gallo, D.}, {\sc Liu, Q.}, {\sc Ryu,
+  K.~D.}, and {\sc Silva, D.~d.}, ``Cloudbench: Experiment automation for cloud
+  environments,'' in {\em Proceedings of the 2013 IEEE International Conference
+  on Cloud Engineering}, IC2E '13, (Washington, DC, USA), pp.~302--311, IEEE
+  Computer Society, 2013.
+
+\bibitem{dean}
+{\sc Snavely, A.} and {\sc Tullsen, D.~M.}, ``Symbiotic jobscheduling for a
+  simultaneous multithreaded processor,'' {\em SIGARCH Comput. Archit. News},
+  vol.~28, pp.~234--244, Nov. 2000.
+
+\bibitem{GR38}
+{\sc Song, S.}, {\sc Su, C.}, {\sc Rountree, B.}, and {\sc Cameron, K.~W.}, ``A
+  simplified and accurate model of power-performance efficiency on emergent gpu
+  architectures,'' in {\em Parallel Distributed Processing (IPDPS), 2013 IEEE
+  27th International Symposium on}, pp.~673--686, May 2013.
+
+\bibitem{GR37}
+{\sc Song, S.} and {\sc Cameron, K.}, ``System-level power-performance
+  efficiency modeling for emergent gpu architectures,'' in {\em Proceedings of
+  the 21st International Conference on Parallel Architectures and Compilation
+  Techniques}, PACT '12, (New York, NY, USA), pp.~473--474, ACM, 2012.
+
+\bibitem{graphscope}
+{\sc Sun, J.}, {\sc Faloutsos, C.}, {\sc Papadimitriou, S.}, and {\sc Yu,
+  P.~S.}, ``Graphscope: Parameter-free mining of large time-evolving graphs,''
+  in {\em Proceedings of the 13th ACM SIGKDD International Conference on
+  Knowledge Discovery and Data Mining}, KDD '07, (New York, NY, USA),
+  pp.~687--696, ACM, 2007.
+
+\bibitem{18}
+{\sc Tarditi, D.}, {\sc Puri, S.}, and {\sc Oglesby, J.}, ``Accelerator: Using
+  data parallelism to program gpus for general-purpose uses,'' in {\em
+  Proceedings of the 12th International Conference on Architectural Support for
+  Programming Languages and Operating Systems}, ASPLOS XII, (New York, NY,
+  USA), pp.~325--335, ACM, 2006.
+
+\bibitem{19}
+{\sc Teodoro, G.}, {\sc Sachetto, R.}, {\sc Sertel, O.}, {\sc Gurcan, M.~N.},
+  {\sc Meira, W.}, {\sc Catalyurek, U.}, and {\sc Ferreira, R.}, ``Coordinating
+  the use of gpu and cpu for improving performance of compute intensive
+  applications,'' in {\em Cluster Computing and Workshops, 2009. CLUSTER '09.
+  IEEE International Conference on}, pp.~1--10, Aug 2009.
+
+\bibitem{BSP}
+{\sc Valiant, L.~G.}, ``A bridging model for parallel computation,'' {\em
+  Commun. ACM}, vol.~33, pp.~103--111, Aug. 1990.
+
+\bibitem{aspire}
+{\sc Vora, K.}, {\sc Koduru, S.~C.}, and {\sc Gupta, R.}, ``Aspire: Exploiting
+  asynchronous parallelism in iterative algorithms using a relaxed consistency
+  based dsm,'' in {\em Proceedings of the 2014 ACM International Conference on
+  Object Oriented Programming Systems Languages \& Applications}, OOPSLA '14,
+  (New York, NY, USA), pp.~861--878, ACM, 2014.
+
+\bibitem{GPU25}
+{\sc Wang, L.}, {\sc Huang, M.}, and {\sc El-Ghazawi, T.}, ``Towards efficient
+  gpu sharing on multicore processors,'' {\em SIGMETRICS Perform. Eval. Rev.},
+  vol.~40, pp.~119--124, Oct. 2012.
+
+\bibitem{web}
+{\sc Williams, S.}, {\sc Oliker, L.}, {\sc Vuduc, R.}, {\sc Shalf, J.}, {\sc
+  Yelick, K.}, and {\sc Demmel, J.}, ``Optimization of sparse matrix-vector
+  multiplication on emerging multicore platforms,'' in {\em Proceedings of the
+  2007 ACM/IEEE Conference on Supercomputing}, SC '07, (New York, NY, USA),
+  pp.~38:1--38:12, ACM, 2007.
+
+\bibitem{orkut}
+{\sc Yang, J.} and {\sc Leskovec, J.}, ``Defining and evaluating network
+  communities based on ground-truth,'' in {\em Proceedings of the ACM SIGKDD
+  Workshop on Mining Data Semantics}, MDS '12, (New York, NY, USA),
+  pp.~3:1--3:8, ACM, 2012.
+
+\bibitem{sc05}
+{\sc Yoo, A.}, {\sc Chow, E.}, {\sc Henderson, K.}, {\sc McLendon, W.}, {\sc
+  Hendrickson, B.}, and {\sc Catalyurek, U.}, ``A scalable distributed parallel
+  breadth-first search algorithm on bluegene/l,'' in {\em Proceedings of the
+  2005 ACM/IEEE Conference on Supercomputing}, SC '05, (Washington, DC, USA),
+  pp.~25--, IEEE Computer Society, 2005.
+
+\bibitem{medusa}
+{\sc Zhong, J.} and {\sc He, B.}, ``Medusa: Simplified graph processing on
+  gpus,'' {\em IEEE Transactions on Parallel and Distributed Systems}, vol.~25,
+  pp.~1543--1552, June 2014.
+
+\end{thebibliography}

@@ -1,0 +1,59 @@
+\chapter{Related work}
+%Related Work
+
+\section{Accelerator-based Graph Processing}
+ Merrill \textit{et al.}\cite{Merrill} present 
+a parallelization of BFS tailored to the GPU's requirement for large amounts of fine-grained BSP; they achieve an asymptotically 
+optimal $O(|V|+|E|)$ work complexity. Hong \textit{et al.}\cite{Hong} propose warp-level load-balancing that defers outliers 
+and performs dynamic workload distribution to speed up graph algorithms through heavyweight atomic operations on global memory. 
+Duong \textit{et al.} \cite{Duong} conduct detailed GPU-based optimizations for PageRank and achieves significant speedup over 
+a multi-core CPU implementation. Chapuis \textit{et al.} \cite{ASSP} provide an algorithmic optimization solution to speedup 
+all-pairs shortestpath (APSP) for planar graphs that exploits the massive on-chip parallelism available on GPUs. 
+The GraphReduce~\cite{GR} framework can be extended to implement the algorithm-specific optimizations above and in contrast to such work, it offers
+user-level APIs for programming graph algorithms and provides a general framework addressing a wide range of parallel graph algorithms 
+and hiding architecture-level optimizations from users.
+
+Concerning frameworks for GPU-based graph processing, earlier work like \textit{Medusha} \cite{medusa} introduces some basic
+graph-centric optimizations for GPUs, offering a small set of user-defined APIs, but its performance is not comparable to the
+state-of-the-art low-level GPU optimizations. To address this issue, \textit{MapGraph} \cite{mapgraph} and \textit{VertexAPI}\cite{vertexapi}
+implement runtime-based programming frameworks with levels of performance that match those seen for low-level specific algorithm optimizations. 
+\textit{MapGraph} chooses among different scheduling strategies, depending on the size of the frontier and the adjacency lists 
+for the vertices in the frontier. It also uses a Structure Of Arrays (SOA) pattern to ensure coalesced memory access. 
+\textit{VertexAPI} provides a GAS model-based GPU library, gaining high performance primarily from using the 
+ModernGPU \cite{moderngpu} library for load balancing and memory coalescing. \textit{CuSha} \cite{cusha} identifies the shortcomings 
+of the state-of-the-art CSR-based virtual warp-centric method for processing graphs on GPUs and in response, proposes G-Shards and 
+Concatenated Windows to address its performance inefficiency. All of the approaches above make the fundamental assumption that 
+large graphs fit into GPU memory, a restriction that is not present for GraphReduce. As discussed in Chapter 3, GraphReduce 
+not only addresses the processing of out-of-memory graphs, but also matches the in-memory performance seen with these state-of-the-art 
+approaches, in many cases outperforming them significantly. 
+
+\section{Out-of-Core Graph Processing} Out-of-Core graph processing has been concerned with CPU-based hosts processing graphs 
+that do no fit into host memory. \textit{GraphChi} \cite{chi}, for instance, is based on a vertex-centric implementation of 
+graph algorithms where graphs are sharded onto the SSD drives attached to the host. Its SSD-targeting sharding methods motivate 
+GraphReduce's approach to how GPUs view and interact with host memory. (Table \ref{gpu-cpu}). 
+GraphChi proposed the concept of partitioning a graph into shards and a novel parallel sliding windows technique to load a subgraph into the CPU memory. This method enables a sequential access of memory as the in-edges are sorted according to their source vertices.  
+We also borrow from X-Stream \cite{xstream} the edge-centric way to organize data for our GAS model.
+To improve GraphChi with the scenario that large graphs commonly have more edges than vertices, \textit{X-Stream} \cite{xstream} enables an edge-centric scatter-gather model. Unlike GraphChi which requires pre-processing in the form of sorting the in-edges, X-Stream streams unordered edge lists and puts the updates into buckets corresponding to different vertex intervals. Both Graphchi and X-Stream are CPU-based implementations. Although they both have multi-threaded version, they do not come close to the parallelism offered in GPUs which our GraphReduce framework takes advantage of. 
+Discussed in Chapter 3, GraphReduce enables a hybrid programming model and significantly outperforms state-of-the-art X-Stream for different graph inputs processed by various algorithms. 
+\textit{Totem} \cite{totem} offers a high-level abstraction for graph processing on GPU-based systems, by statically partitioning graphs 
+into GPU and host memories, placing low-degree vertices on the host and high-degree vertices on the GPU. 
+The approach improves performance if the graphs follow a power-law vertex degree distribution, and as graph size increases, only
+a fixed sub-graph able to fit in GPU memory will be processed, resulting in GPU underutilization and eventual CPU-based bottlenecks
+for graph processing. \textit{Green-Marl} \cite{green} is a Domain Specific Language (DSL) 
+for efficient graph analysis on CPUs; its implementation is not amenable to many-core architectures. Also, it requires static analysis to generate thread assignment which will not work for GPU runtime. 
+
+
+\section{Distributed graph processing} Involves processing of large-scale graphs in a distributed fashion by making use of the combined memories of multiple machines to fit large graphs that don’t fit in a single machine. Pregel~\cite{pregel} provides a synchronous vertex-centric graph processing framework that is based on message passing. GraphLab~\cite{graphlab} provides a framework for machine learning and data mining while PowerGraph~\cite{powergraph} exploits the power-law vertex degree distribution for efficient data placement and computation. ASPIRE~\cite{aspire} adopts an asynchronous mode of execution with a relaxed consistency to improve the remote access latency. These project are complimentary to GraphIn, in that they could be used to implement the static component of GraphIn  computation while I-GAS can be leveraged to make these distributed frameworks more dynamic. 
+
+\section{Dynamic graph processing} There are two broad categories of dynamic graphs processing (1) Offline processing of dynamic graphs that involves the generation, storing, and analysis of a sequence of versions or time-stamped snapshots of dynamic graphs for the calculation of some global graph property. (2) Online processing of dynamic graphs that  involve real-time, continuous query processing over streaming updates on the evolving graph. EvoGraph is a framework designed to address the later problem.
+Chronos~\cite{chronos}, GraphScope~\cite{graphscope}, and TEG~\cite{teg} are some examples of the most recent work in offline dynamic graph processing. Chronos is a high-performance system that supports incremental processing on temporal graphs using a graph representation that places graph vertex data from different versions together leading to good cache locality. GraphScope proposes encoding for evolving graphs for community discovery and anomaly detection. 
+
+\section{Real-time, continuous query processing} This implies certain memory constraints that might not allow keeping multiple versions of the evolving graph. STINGER~\cite{stinger} defines an efficient data structure to represent streaming graphs that enables fast, real-time insertions and/or deletions to the graph. Several applications have been built using the STINGER graph representation like clustering coefficient [3] and connected components [4]. Unlike STINGER which uses a single data structure for both static and dynamic graph analysis, EvoGraph uses a novel hybrid data structure that allows for incremental computation on edge lists and a compressed format for static graph computation.  A key takeaway of these related work is that any existing algorithm that can be reduced to a GAS-based graph sub-problem can easily leverage EvoGraph to implement their incremental versions.
+
+
+
+
+
+
+
+

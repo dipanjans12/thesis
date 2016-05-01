@@ -1,0 +1,153 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: proposal.aux
+The style file: gatech-thesis.bst
+Database file #1: ref.bib
+Warning--I'm ignoring queue's extra "month" field
+--line 1138 of file ref.bib
+Warning--I didn't find a database entry for "UFL"
+Warning--to sort, need author or key in titan
+Warning--to sort, need author or key in element
+Warning--to sort, need author or key in zillians
+Warning--to sort, need author or key in nvidia-game
+Warning--to sort, need author or key in adobe
+Warning--to sort, need author or key in amazon
+Warning--to sort, need author or key in nimbix
+Warning--to sort, need author or key in peer1
+Warning--to sort, need author or key in penguin
+Warning--to sort, need author or key in GPU32
+Warning--to sort, need author or key in opencv
+Warning--to sort, need author or key in cuda7
+Warning--to sort, need author or key in rodinia
+Warning--to sort, need author or key in spec
+Warning--to sort, need author or key in kepler
+Warning--to sort, need author or key in yahoo
+Warning--to sort, need author or key in vertexapi
+Warning--to sort, need author or key in ak2010
+Warning--to sort, need author or key in coauthors
+Warning--to sort, need author or key in belgium
+Warning--to sort, need author or key in uk2002
+Warning--to sort, need author or key in cage15
+Warning--to sort, need author or key in UVA
+Warning--to sort, need author or key in moderngpu
+Warning--to sort, need author or key in twitter
+Warning--empty author in adobe
+Warning--empty journal in adobe
+Warning--empty year in adobe
+Warning--empty author in amazon
+Warning--empty journal in amazon
+Warning--empty year in amazon
+Warning--empty author in cage15
+Warning--empty journal in cage15
+Warning--empty year in cage15
+Warning--empty author in cuda7
+Warning--empty journal in cuda7
+Warning--empty year in cuda7
+Warning--empty author in spec
+Warning--empty journal in spec
+Warning--empty year in spec
+Warning--empty author in ak2010
+Warning--empty journal in ak2010
+Warning--empty year in ak2010
+Warning--empty author in belgium
+Warning--empty journal in belgium
+Warning--empty year in belgium
+Warning--empty author in coauthors
+Warning--empty journal in coauthors
+Warning--empty year in coauthors
+Warning--empty author in element
+Warning--empty journal in element
+Warning--empty year in element
+Warning--empty author in moderngpu
+Warning--empty journal in moderngpu
+Warning--empty year in moderngpu
+Warning--empty author in nimbix
+Warning--empty journal in nimbix
+Warning--empty year in nimbix
+Warning--empty author in nvidia-game
+Warning--empty journal in nvidia-game
+Warning--empty year in nvidia-game
+Warning--empty author in kepler
+Warning--empty journal in kepler
+Warning--empty year in kepler
+Warning--empty author in opencv
+Warning--empty journal in opencv
+Warning--empty year in opencv
+Warning--empty author in peer1
+Warning--empty journal in peer1
+Warning--empty year in peer1
+Warning--empty author in penguin
+Warning--empty journal in penguin
+Warning--empty year in penguin
+Warning--empty author in rodinia
+Warning--empty journal in rodinia
+Warning--empty year in rodinia
+Warning--empty author in titan
+Warning--empty journal in titan
+Warning--empty year in titan
+Warning--empty author in twitter
+Warning--empty journal in twitter
+Warning--empty year in twitter
+Warning--empty author in uk2002
+Warning--empty journal in uk2002
+Warning--empty year in uk2002
+Warning--empty author in UVA
+Warning--empty journal in UVA
+Warning--empty year in UVA
+Warning--empty author in vertexapi
+Warning--empty journal in vertexapi
+Warning--empty year in vertexapi
+Warning--empty author in GPU32
+Warning--empty journal in GPU32
+Warning--empty year in GPU32
+Warning--empty author in yahoo
+Warning--empty journal in yahoo
+Warning--empty year in yahoo
+Warning--empty author in zillians
+Warning--empty journal in zillians
+Warning--empty year in zillians
+Warning--empty booktitle in GPUmine
+Warning--empty booktitle in kron20
+Warning--empty journal in ligra
+You've used 115 entries,
+            2221 wiz_defined-function locations,
+            1149 strings with 28113 characters,
+and the built_in function-call counts, 50609 in all, are:
+= -- 4741
+> -- 2373
+< -- 1
++ -- 958
+- -- 832
+* -- 4810
+:= -- 7077
+add.period$ -- 88
+call.type$ -- 115
+change.case$ -- 760
+chr.to.int$ -- 0
+cite$ -- 218
+duplicate$ -- 2493
+empty$ -- 4152
+format.name$ -- 832
+if$ -- 11075
+int.to.chr$ -- 0
+int.to.str$ -- 115
+missing$ -- 110
+newline$ -- 349
+num.names$ -- 181
+pop$ -- 985
+preamble$ -- 1
+purify$ -- 646
+quote$ -- 0
+skip$ -- 1640
+stack$ -- 0
+substring$ -- 2824
+swap$ -- 1070
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 458
+warning$ -- 103
+while$ -- 396
+width$ -- 118
+write$ -- 1087
+(There were 105 warnings)

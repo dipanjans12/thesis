@@ -1,0 +1,125 @@
+\documentclass{gatech-thesis}
+% The default options:
+%   \documentclass[11pt,letterpaper,oneside,%
+%       doublespaced,normalmargins,final]{gatech-thesis}
+% will generate a document that conforms to the graduate studies office
+% guidelines.
+
+\ifx\pdfoutput\undefined
+  \usepackage[dvips,final]{graphicx}  % using latex+dvips
+  \usepackage[dvips,usenames]{color}
+\else
+  \usepackage[pdftex,final]{graphicx} % using pdflatex
+  \usepackage[pdftex,usenames]{color}
+\fi
+
+% this is for URL pretty-printing
+\usepackage{url,comment,multirow,algorithm,algorithmic}
+
+% this is for including code listings
+\usepackage{listings}
+\lstset{
+  language=C,	
+  basicstyle=\small,
+  keywordstyle=\color{black},
+  identifierstyle=,
+  commentstyle=\color{red},
+  stringstyle=\ttfamily,
+  showstringspaces=false,
+  framerule=0.5mm,
+}
+
+\usepackage{tikz}
+\usepackage{textcomp}
+\usepackage{boxedminipage, amsmath,algorithm, algorithmic}
+\usepackage{amssymb}
+
+\graphicspath{{figures/}}
+
+%
+% TITLE BUZZWORDS: discriminate, differentiated, individualized,
+% personalized, distinguished, divergent
+%
+
+%define stuff in preamble
+ \degree{Doctor of Philosophy}
+ \department{College of Computing}
+% alternative names: Melange / Farrago / Pasticcio
+ \title{System Design Principles for Heterogeneous Resource Management and Scheduling in Accelerator-Based Systems
+}
+%\title{System Support for Enterprise-Wide Performance Management}
+ \author{Dipanjan Sengupta}
+ \principaladvisor{Prof. Karsten Schwan}
+ \committeechair{Dr. Matthew Wolf}
+ \firstreader{Dr. Ada Gavrilovska}
+ \secondreader{Prof. Ling Liu}
+ \thirdreader{Prof. Sudhakar Yalamanchili }
+ \fourthreader{Prof. Richard Vuduc}
+ \fifthreader{Dr. Theodore L. Willke}
+ \submitdate{16 May 2016}
+
+ \copyrightyear{2016} %add one if thesis submitted in Dec.
+
+\thesisproposalfalse       % default
+ \copyrighttrue  
+% \thesisproposaltrue
+% \titlepagetrue             % default
+% \signaturepagetrue         % default
+% \copyrightfalse            % default
+% \figurespagetrue           % default
+ % \figurespagefalse          % for now...
+% \tablespagetrue            % default
+  %\tablespagefalse           % for now...
+  %\contentspagetrue          % default
+% \dedicationheadingfalse    % default
+% \bibpagetrue               % default
+  \bibpagetrue               % default
+% \strictmarginstrue         % default
+
+\bibfiles{ref}
+
+\begin{document}
+\bibliographystyle{gatech-thesis}
+\setchaptertocdepth{2}
+
+\begin{preliminary}
+\begin{dedication}
+\null\vfil
+{\Large
+\begin{center}
+To my parents.
+\end{center}}
+\vfil\null
+\end{dedication}
+
+\begin{acknowledgements}
+\input{ack}
+\end{acknowledgements}
+\contents
+%\input{abstract}
+\begin{summary}
+\input{summary}
+\end{summary}
+\end{preliminary}
+
+\input{intro}
+
+%\input{research}
+\input{strings}
+%\input{graphprocess}
+\input{graphreduce}
+\input{evograph}
+\input{related}
+\input{conclusion}
+%\input{vita}
+%\input{status}
+%\input{remaining}
+
+\begin{postliminary}
+\references
+\begin{vita}
+\input{vita}
+\end{vita}
+\end{postliminary}
+\end{document}
+

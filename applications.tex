@@ -1,0 +1,17 @@
+\section{Applications}
+\label{applications}
+
+\subsection{GPU Cloud Workload}
+To evaluate multi-tenancy in GPUs, applications from the CUDA SDK and the Rodinia benchmark suite are chosen to create a pairwise workload mix of short (\textless  10sec) and relatively long (10-55 sec) running jobs. We assume typical cloud services to operate in response to end user requests, with each individual service running for some small amount of time to complete a single request, but with the requirement of being highly responsive. This assumption matches the service behavior reported by Amazon, for instance, for its web service infrastructure. However, the actual types of service instances being used will vary, which we reflect by carefully choosing for the evaluation a diverse set of application kernels, like image processing (e.g., matrixmult), financial (e.g., BlackScholes), etc. The outcome is a workload mix with many short running rather than a few long running sets of jobs.
+
+\subsection{Graph Algorithms} We will be evaluating our graph processing framework on GPUs using popular algorithms, including Breadth First search (BFS), Page Rank (PR), Single-Source Shortest Paths (SSSP), and Connected Components (CC). Algorithms requiring undirected graphs as inputs, e.g., connected components, are stored as pairs of directed edges.
+Some incremental graph algorithms must accommodate inserts and deletes from the latest update batch in each iteration of the algorithm. These updates must be applied to the original graph G before the next update batch is considered. In general, this is the case for graph algorithms that calculate global properties, like BFS, which needs to consider any added or removed edges before recalculating vertex depths. Other algorithms, often ones that compute over properties that are semi-localized within a graph, need to only accommodate per-batch deletes e.g. connected components algorithm. Finally, there are algorithms where each incremental iteration has no dependency on inserts or deletes from the previous batch. This is often the case for algorithms that only utilize local properties. Examples include the computation of clustering coefficients, triangle counting, calculating vertex degree etc. In such cases, both inserts and deletes may be deferred. 
+
+Based on these observations, we support three merge patterns:
+\begin{itemize}
+\item \textbf{All-Merge:} Both inserts and deletes are merged with G at the end of the incremental GAS loop.		
+\item \textbf{Partial-Merge:} Either deletes or inserts are merged with G at the end of the incremental GAS loop. The framework defers applying the rest of the updates to the original graphs.
+\item \textbf{No-Merge:} Neither inserts nor deletes from the update batch are merged with G at the end of the  incremental GAS loop. The framework defers applying both inserts and deletes. 
+\end{itemize}
+
+We will be evaluating our incremental graph processing framework using applications from the above three classes of algorithms, including Clustering Coefficient (CCof), Connected Components (CC) and Breadth First Search  (BFS). These algorithms are classified as no-merge (CCof), partial-merge (CC) and all-merge (BFS) as described in the above. 

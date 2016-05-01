@@ -1,0 +1,599 @@
+\relax 
+\bibstyle{gatech-thesis}
+\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {Dedication}}{iii}}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {Acknowledgements}}{iv}}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {List of Tables} }{ix}}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {List of Figures} }{x}}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {Summary}}{xiii}}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\citation{15}
+\citation{16}
+\citation{17}
+\citation{18}
+\citation{19}
+\citation{titan}
+\citation{exascale1}
+\citation{exascale2}
+\citation{exascale3}
+\citation{exascale4}
+\citation{exascale5}
+\citation{exascale6}
+\citation{exascale7}
+\citation{element}
+\citation{zillians}
+\citation{nvidia-game}
+\citation{GPUsearch}
+\citation{GPUmine}
+\citation{adobe}
+\citation{amazon}
+\citation{nimbix}
+\citation{peer1}
+\citation{penguin}
+\citation{pegasus}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {I}\MakeUppercase  {Introduction}}{1}}
+\newlabel{intro}{{1}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}GPU Sharing in Cloud}{1}}
+\citation{graphlab}
+\citation{powergraph}
+\citation{pregel}
+\citation{chi}
+\citation{xstream}
+\citation{ligra}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Accelerator-based heterogeneous system architecture }}{2}}
+\newlabel{fig:hybrid}{{1}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces GPGPU application service model following a negative exponential distribution of request arrival from multiple end users. }}{3}}
+\newlabel{fig:service}{{2}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Large-Scale Graph Analytics on GPUs}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Static vs. incremental graph processing. }}{4}}
+\newlabel{fig:inc}{{3}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Dynamic Graph Analytics on GPUs}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Thesis Statement}{6}}
+\newlabel{thesis}{{1.4}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.5}Contributions}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.6}Dissertation Structure}{9}}
+\citation{nvidia-game}
+\citation{element}
+\citation{adobe}
+\citation{zillians}
+\citation{GPUmine}
+\citation{GPUsearch}
+\citation{GPU29}
+\citation{GPU30}
+\citation{GPU31}
+\citation{GPU32}
+\citation{GPU33}
+\citation{amazon}
+\citation{nimbix}
+\citation{peer1}
+\citation{penguin}
+\citation{gdev}
+\citation{gvim}
+\citation{ravi}
+\citation{pegasus}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {II}\MakeUppercase  {Strings: Multi-tenancy in Accelerator-based Servers}}{10}}
+\citation{cloudbench}
+\citation{opencv}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Background and Motivation}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Scheduling Crisis in GPU Multitenancy}{12}}
+\citation{GPU25}
+\citation{cuda7}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Compute and memory characteristic of various GPU-based cloud applications. }}{13}}
+\newlabel{fig:cloud-workload}{{4}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces GPU utilization of Monte Carlo requests following exponential distribution of request arrival with sequential vs. concurrent execution. }}{13}}
+\newlabel{fig:GPU-utilization}{{5}{13}}
+\citation{gvim}
+\citation{vcuda}
+\citation{rcuda}
+\citation{pegasus}
+\citation{gvirtus}
+\citation{shadowfax}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Architecture of GPU Remoting. }}{14}}
+\newlabel{fig:GPU-remoting}{{6}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}System Design Principles}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Future GPU Servers and gPool}{14}}
+\citation{shadowfax}
+\citation{Rain}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Logical transformatiom of GPU cluster after gPool creation. }}{16}}
+\newlabel{fig:GPool}{{7}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Three different implementations GPU remoting.}}{16}}
+\newlabel{fig:Strings-design}{{8}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Design Decisions}{16}}
+\citation{liedtke}
+\citation{GPU5}
+\citation{ravi}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Strings Architecture}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Software architecture of Strings.}}{20}}
+\newlabel{fig:strings_archi}{{9}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The structure of the GPU Affinity Mapper.}}{21}}
+\newlabel{fig:affinity}{{10}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The structure of the Context Packer.}}{22}}
+\newlabel{fig:packer}{{11}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces The structure of the GPU Scheduler.}}{24}}
+\newlabel{fig:sched}{{12}{24}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Scheduling Policies}{25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}Workload Balancing Policies }{25}}
+\citation{queue}
+\citation{atlas}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces (a) Real-Time Signal based GPU Scheduler (b) Phase Selection Scheduling Policy. }}{26}}
+\newlabel{fig:RT_sched}{{13}{26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}GPU Scheduling Policies}{26}}
+\citation{numa}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.3}Feedback-based Load Balancing}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.4}Discussion}{29}}
+\citation{dean}
+\citation{jain}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces {Benchmark Applications}}}{30}}
+\newlabel{tbl:table}{{1}{30}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}Experimental Evaluation}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}Evaluation Metrics}{30}}
+\citation{rodinia}
+\citation{spec}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces GPGPU application service model following a negative exponential distribution of request arrival from multiple end users.}}{31}}
+\newlabel{fig:servicemodel}{{14}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}Benchmarks}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.3}Experimental Setup}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Performance benefit of workload balancing policies vs. CUDA runtime in a single node with 2 GPUs.}}{33}}
+\newlabel{fig:strings_exp1}{{15}{33}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.4}Results}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Performance benefit of GPU sharing in an emulated 4 GPU server. }}{34}}
+\newlabel{fig:strings_exp2}{{16}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Fairness achieved by TFS-Strings vs. TFS-Rain vs. CUDA runtime. }}{34}}
+\newlabel{fig:strings_exp3}{{17}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Performance benefit of GPU scheduling. }}{36}}
+\newlabel{fig:strings_exp4}{{18}{36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Performance benefit of GPU scheduling policies.}}{37}}
+\newlabel{fig:strings_exp5}{{19}{37}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Performance benefit of feedback-based load balancing.}}{38}}
+\newlabel{fig:strings_exp6}{{20}{38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Performance benefit of two Strings specific feedback-based load balancing policies.}}{38}}
+\newlabel{fig:strings_exp7}{{21}{38}}
+\citation{starpu}
+\citation{symphony}
+\citation{phull}
+\citation{phull}
+\citation{phull}
+\citation{becchi}
+\citation{phi}
+\citation{phi}
+\citation{becchi}
+\citation{gdev}
+\citation{GPU43}
+\@writefile{toc}{\contentsline {section}{\numberline {2.6}Related Work}{40}}
+\citation{gvim}
+\citation{pegasus}
+\citation{vcuda}
+\citation{rcuda}
+\citation{gvirtus}
+\@writefile{toc}{\contentsline {section}{\numberline {2.7}Chapter Summary}{41}}
+\citation{ocelot}
+\citation{Rain}
+\citation{Strings}
+\citation{medusa}
+\citation{mapgraph}
+\citation{cusha}
+\citation{naila}
+\citation{chi}
+\citation{xstream}
+\citation{ppl}
+\citation{pact}
+\citation{jure}
+\citation{graphlab}
+\citation{chi}
+\citation{xstream}
+\citation{xstream}
+\citation{chi}
+\citation{kepler}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {III}\MakeUppercase  {GraphReduce: Processing Large-Scale Graphs on Accelerator-based Systems}}{43}}
+\citation{yahoo}
+\citation{chi}
+\citation{xstream}
+\citation{mapgraph}
+\citation{cusha}
+\citation{pregel}
+\citation{powergraph}
+\citation{graphlab}
+\citation{vertexapi}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Background and Motivation}{45}}
+\newlabel{bg}{{3.1}{45}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Computational Model: GAS Abstraction}{45}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces An example of GAS abstraction. }}{46}}
+\newlabel{fig:phases}{{22}{46}}
+\citation{powergraph}
+\citation{pregel}
+\citation{sc05}
+\citation{pagerank}
+\citation{BSP}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces  (a) Vertex-centric Scatter-Gather. (b) Edge-centric Scatter-Gather. }}{47}}
+\newlabel{fig:vertex-edge}{{23}{47}}
+\citation{ak2010}
+\citation{coauthors}
+\citation{kron20}
+\citation{web}
+\citation{belgium}
+\citation{kron20}
+\citation{nlpktt}
+\citation{uk2002}
+\citation{orkut}
+\citation{cage15}
+\citation{medusa}
+\citation{cusha}
+\citation{vertexapi}
+\citation{mapgraph}
+\citation{xstream}
+\citation{cusha}
+\citation{kron20}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Motivation and Challenges}{48}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces  Datasets used to evaluate GraphReduce framework. `Out-of-memory' means that the input graphs cannot fit into the limited GPU memory. A commercial K20c GPU with a 4.8 GB global memory is used as an example to illustrate in-memory and out-of-memory cases.}}{48}}
+\newlabel{datasets}{{2}{48}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Performance comparision between two state-of-the-art graph processing approaches. X-Stream runs on a 16 core Xeon E5-2670 CPU with 32GB memory. CuSha runs on a NVIDIA K20c Kepler GPU with 4.8 GB memory. }}{48}}
+\newlabel{gpu-cpu}{{3}{48}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2.1}Why Graph Analytics Using GPUs ?}{48}}
+\citation{yahoo}
+\citation{cusha}
+\citation{mapgraph}
+\citation{vertexapi}
+\citation{medusa}
+\citation{chi}
+\citation{xstream}
+\citation{totem}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Frontier size changes across iterations using the GAS model on GPUs. This phenomenon highly depends on the input graph and algorithm, showcasing the inherent graph irregularity. Four cases from left to right: (a) Cage15 - PageRank; (b) nlpkkt160 - PageRank; (c) Cage15 - BFS; and (d) orkut - Connected Component (CC). }}{49}}
+\newlabel{fig:frontier}{{24}{49}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2.2}Challenges in GPU Graph Analytics?}{49}}
+\citation{graphlab}
+\citation{pregel}
+\citation{chi}
+\citation{xstream}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Design Choices}{50}}
+\newlabel{Choice}{{3.2}{50}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Hybrid Programming Model}{50}}
+\newlabel{3.1}{{3.2.1}{50}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Performance of transferring 100,000,000 double elements, using three techniques for data exchange between CPU and GPU. }}{51}}
+\newlabel{fig:transfer}{{25}{51}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Characterization of Buffers in Play}{51}}
+\newlabel{3.1}{{3.2.2}{51}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Performance benefits of using a combination of compute-transfer and compute-compute schemes for processing matrix multiplication with different input sizes. Stripe size=50, which refers to the contiguous number of rows of the matrix being fetched into the GPU memory as a chunk. }}{52}}
+\newlabel{fig:2schemes}{{26}{52}}
+\citation{nemu}
+\citation{UVA}
+\citation{UVA}
+\citation{chi}
+\citation{xstream}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Coordinated Computation and Data Movement}{54}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}GraphReduce Framework}{54}}
+\newlabel{Arch}{{3.3}{54}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Writing sequential code using GAS model for Connected Component (CC) algorithm in GraphReduce. }}{55}}
+\newlabel{fig:seq}{{27}{55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Illustration of \textit  {shard} and its data structure. }}{55}}
+\newlabel{fig:shard}{{28}{55}}
+\citation{csr}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces Architecture of GraphReduce framework. }}{56}}
+\newlabel{fig:big1}{{29}{56}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}User Interface}{56}}
+\newlabel{interface}{{3.3.1}{56}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Partition Engine}{56}}
+\newlabel{partition}{{3.3.2}{56}}
+\citation{cuda7}
+\citation{kepler}
+\newlabel{asynchronous}{{1}{57}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces \let \relax \fontsize  {10.95}{13.6}\selectfont  \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ =\relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip  Asynchronous Memory Copy and Computation for Processing Shards on GPU}}{57}}
+\newlabel{alg1}{{1}{57}}
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces  The structure of the Partition Engine.}}{58}}
+\newlabel{fig:big2}{{30}{58}}
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces  The structures of the Data Movement Engine and Compute Engine. Tables/buffer\_list are data structures (passive elements of the engine) while rectangles are modules (active elements of the engine).}}{58}}
+\newlabel{fig:big_new}{{31}{58}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Data Movement Engine}{58}}
+\newlabel{movement}{{3.3.3}{58}}
+\newlabel{equ:shard1}{{5}{59}}
+\newlabel{equ:shard2}{{6}{59}}
+\citation{pregel}
+\citation{powergraph}
+\citation{graphlab}
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Sub-phases of the computation stage. }}{60}}
+\newlabel{fig:5phases}{{32}{60}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Computation Engine}{60}}
+\newlabel{computation}{{3.3.4}{60}}
+\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces GPU device pseudo code for exploiting two-level parallelism in different phases. }}{61}}
+\newlabel{fig:pseudo}{{33}{61}}
+\citation{moderngpu}
+\citation{moderngpu}
+\citation{moderngpu}
+\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces (a) Data Movement from host to GPU in GraphReduce through Hyper-Q. (b) Illustration of Spray Streams for better throughput.}}{63}}
+\newlabel{fig:hyperq}{{34}{63}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Optimizations}{63}}
+\newlabel{Optimization}{{3.4}{63}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Asynchronous Execution and the Spray Operation}{63}}
+\newlabel{opt1}{{3.4.1}{63}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Dynamic Frontier Management}{64}}
+\newlabel{opt2}{{3.4.2}{64}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Dynamic Phase Fusion/Elimination}{64}}
+\newlabel{opt3}{{3.4.3}{64}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Experimental Evaluation }{66}}
+\newlabel{experiment}{{3.5}{66}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}Experimental Setup}{66}}
+\citation{mapgraph}
+\citation{vertexapi}
+\citation{medusa}
+\citation{cusha}
+\citation{chi}
+\citation{xstream}
+\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces GR's speedup over GraphChi for various algorithms and out-of-memory graph inputs. }}{67}}
+\newlabel{fig:speedup1}{{35}{67}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}Evaluation and Analysis}{67}}
+\newlabel{6.1}{{3.5.2}{67}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Execution times of out-of-memory graph processing frameworks on different algorithms and graph inputs. Reported times are wall time and in {\bf  seconds}.}}{67}}
+\newlabel{bigdata}{{4}{67}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2.1}Comparison with Out-of-Memory Frameworks}{67}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Performance results of in-memory (small) graph processing frameworks on different algorithms and graph inputs. Reported times are in { milliseconds}. {MG stands for MapGraph.}}}{68}}
+\newlabel{smalldata}{{5}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces GR's speedup over X-Stream for various algorithms and out-of-memory graph inputs. }}{68}}
+\newlabel{fig:speedup2}{{36}{68}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2.2}Comparison with GPU In-Memory Frameworks}{69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces Performance gained from memcpy optimization. (a) Actual memcpy time comparison between optimized and unoptimized GR for nlpktt160. (b) Percentage improvement of memcpy performance from optimized GR against unoptimized GR. }}{70}}
+\newlabel{fig:memcpy}{{37}{70}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2.3}Performance Effects of GraphReduce Optimizations}{70}}
+\@writefile{lof}{\contentsline {figure}{\numberline {38}{\ignorespaces Frontier size changes across iterations shown for several large out-of-memory graphs with three algorithms. }}{71}}
+\newlabel{fig:frontier2}{{38}{71}}
+\@writefile{lof}{\contentsline {figure}{\numberline {39}{\ignorespaces For out-of-memory graphs, percentage of iterations that are below 50\% of the max lifetime frontier size. }}{71}}
+\newlabel{fig:frontier_exp}{{39}{71}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2.4}Discussion}{72}}
+\citation{naila}
+\citation{GR25}
+\citation{GR37}
+\citation{GR38}
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}Chapter Summary}{73}}
+\citation{mapgraph}
+\citation{medusa}
+\citation{cusha}
+\citation{GraphReduce}
+\citation{linkbench}
+\citation{twitter}
+\citation{fb}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {IV}\MakeUppercase  {EvoGraph: Processing Evolving Graphs on Accelerator-Based Systems}}{74}}
+\citation{GR}
+\citation{titan}
+\@writefile{lof}{\contentsline {figure}{\numberline {40}{\ignorespaces State-of-the-art GPU frameworks (i.e., MapGraph, GraphReduce and Cusha) for processing static graphs significantly outperform the best CPU-based framework X-Stream (baseline).}}{77}}
+\newlabel{fig:static}{{40}{77}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Motivation and Challenges}{77}}
+\@writefile{lof}{\contentsline {figure}{\numberline {41}{\ignorespaces A subgraph of a Linkedin social network has been updated over time but the rest of the network remains the same. }}{78}}
+\newlabel{fig:link}{{41}{78}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Design Choices}{79}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Computation Overlap and Programming Model}{79}}
+\citation{csr}
+\citation{CCof}
+\citation{CC_new}
+\citation{CC}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Working Set Overlap and Data Structure Choice}{80}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Static vs. Dynamic Runtime}{80}}
+\citation{Rain}
+\citation{Strings}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}Context Merging and Multi-Level GPU Sharing}{81}}
+\@writefile{lof}{\contentsline {figure}{\numberline {42}{\ignorespaces The software architecture diagram of EvoGraph.}}{82}}
+\newlabel{fig:framework}{{42}{82}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}EvoGraph: The Runtime Framework}{82}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}User Interface}{83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {43}{\ignorespaces Computation phases of incremental BFS implemented in EvoGraph with inconsistent vertices marked red.}}{84}}
+\newlabel{fig:bfs}{{43}{84}}
+\@writefile{lof}{\contentsline {figure}{\numberline {44}{\ignorespaces Computation phases of incremental connected component (CC) implemented in EvoGraph with inconsistent vertices marked red.}}{84}}
+\newlabel{fig:cc}{{44}{84}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Stream Engine: Data Movement and Context Merging}{84}}
+\citation{cuda7}
+\citation{GraphReduce}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces {Implementing Graph Algorithms in EvoGraph}}}{85}}
+\newlabel{tbl:table}{{6}{85}}
+\@writefile{lof}{\contentsline {figure}{\numberline {45}{\ignorespaces (a) Deep Copy mechanism in Stream Engine. (b) Context Merging Mechanism in Stream Engine.}}{86}}
+\newlabel{fig:deep}{{45}{86}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Computation Phases in EvoGraph}{87}}
+\citation{graphin}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces : I-GAS Computation Loop Per Update Batch }}{89}}
+\newlabel{alg:igas}{{2}{89}}
+\newlabel{algorithm:memcpy}{{2}{89}}
+\citation{GraphReduce}
+\citation{Ramalingam}
+\citation{Ramalingam}
+\citation{CC}
+\citation{CC_new}
+\citation{CC}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Case Studies}{90}}
+\@writefile{lof}{\contentsline {figure}{\numberline {46}{\ignorespaces \textbf  {Stateful example:} Implementation of incremental BFS using EvoGraph APIs. }}{91}}
+\newlabel{fig:BFS-inc}{{46}{91}}
+\citation{CCof}
+\citation{GraphReduce}
+\citation{stinger}
+\citation{CC}
+\citation{CCof}
+\@writefile{lof}{\contentsline {figure}{\numberline {47}{\ignorespaces \textbf  {Partially Stateless example:} Implementation of incremental Connected Components using EvoGraph APIs. }}{93}}
+\newlabel{fig:CC-inc}{{47}{93}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Experimental Evaluation}{93}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Experimental Setup}{93}}
+\@writefile{lof}{\contentsline {figure}{\numberline {48}{\ignorespaces \textbf  {Fully Stateless example: }Implementation of incremental Triangle Counting using EvoGraph APIs. }}{94}}
+\newlabel{fig:TC-inc}{{48}{94}}
+\citation{UFL}
+\citation{graph500}
+\citation{GraphReduce}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Graph Datasets Under Evaluation}}{95}}
+\newlabel{dataset}{{7}{95}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}EvoGraph Vs. Static Recomputation}{95}}
+\@writefile{lof}{\contentsline {figure}{\numberline {49}{\ignorespaces TC: (a) EvoGraph's speedup over the static computation using GraphReduce; (b) Update Rate that EvoGraph achieves; (c) For 1 million updates, EvoGraph vs. Static Runtime using GraphReduce. }}{96}}
+\newlabel{fig:exp3}{{49}{96}}
+\@writefile{lof}{\contentsline {figure}{\numberline {50}{\ignorespaces CC: (a) EvoGraph's speedup over the static computation using GraphReduce; (b) Update Rate that EvoGraph achieves; (c) For 1 million updates, EvoGraph vs. Static Runtime using GraphReduce. }}{97}}
+\newlabel{fig:exp2}{{50}{97}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3}Sensitivity Analysis}{97}}
+\@writefile{lof}{\contentsline {figure}{\numberline {51}{\ignorespaces BFS: (a) EvoGraph's speedup over the static computation using GraphReduce; (b) Update Rate that EvoGraph achieves; (c) For 1 million updates, EvoGraph vs. Static Runtime using GraphReduce. }}{98}}
+\newlabel{fig:exp1}{{51}{98}}
+\@writefile{lof}{\contentsline {figure}{\numberline {52}{\ignorespaces Impact of vertex degree property on the update rate of Triangle Counting algorithm.}}{99}}
+\newlabel{fig:prop1}{{52}{99}}
+\@writefile{lof}{\contentsline {figure}{\numberline {53}{\ignorespaces Impact of disjoint components property on the update rate of Connected Components algorithm.}}{99}}
+\newlabel{fig:prop2}{{53}{99}}
+\@writefile{lof}{\contentsline {figure}{\numberline {54}{\ignorespaces Impact of vertex depth property on the update rate of Breadth First Search algorithm.}}{100}}
+\newlabel{fig:prop3}{{54}{100}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.4}Performance Implications of Graph Properties}{100}}
+\@writefile{lof}{\contentsline {figure}{\numberline {55}{\ignorespaces Property-guard heuristic vs. naive streaming in incremental BFS using vertex depth property for five graph inputs. The x-axis represents the fraction of vertices below depth threshold of MAX\_DEPTH/4. }}{102}}
+\newlabel{fig:five}{{55}{102}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.5}EvoGraph VS. STINGER}{102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {56}{\ignorespaces EvoGraph vs STINGER throughput comparison for (a) Connected Components and (b) Triangle Counting.}}{103}}
+\newlabel{fig:stinger}{{56}{103}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.6}Discussion}{103}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Chapter Summary}{104}}
+\citation{Merrill}
+\citation{Hong}
+\citation{Duong}
+\citation{ASSP}
+\citation{GR}
+\citation{medusa}
+\citation{mapgraph}
+\citation{vertexapi}
+\citation{moderngpu}
+\citation{cusha}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {V}\MakeUppercase  {Related work}}{105}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Accelerator-based Graph Processing}{105}}
+\citation{chi}
+\citation{xstream}
+\citation{xstream}
+\citation{totem}
+\citation{green}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Out-of-Core Graph Processing}{106}}
+\citation{pregel}
+\citation{graphlab}
+\citation{powergraph}
+\citation{aspire}
+\citation{chronos}
+\citation{graphscope}
+\citation{teg}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Distributed graph processing}{107}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Dynamic graph processing}{107}}
+\citation{stinger}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Real-time, continuous query processing}{108}}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {VI}\MakeUppercase  {Conclusions and Future Directions}}{109}}
+\bibdata{ref}
+\bibcite{adobe}{1}
+\bibcite{amazon}{2}
+\bibcite{cage15}{3}
+\bibcite{cuda7}{4}
+\bibcite{spec}{5}
+\bibcite{ak2010}{6}
+\bibcite{belgium}{7}
+\bibcite{coauthors}{8}
+\bibcite{element}{9}
+\bibcite{moderngpu}{10}
+\bibcite{nimbix}{11}
+\bibcite{nvidia-game}{12}
+\bibcite{kepler}{13}
+\bibcite{opencv}{14}
+\bibcite{peer1}{15}
+\bibcite{penguin}{16}
+\bibcite{rodinia}{17}
+\bibcite{titan}{18}
+\bibcite{twitter}{19}
+\bibcite{uk2002}{20}
+\bibcite{UVA}{21}
+\bibcite{vertexapi}{22}
+\bibcite{GPU32}{23}
+\bibcite{yahoo}{24}
+\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {References}}{112}}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\bibcite{zillians}{25}
+\bibcite{GPU29}{26}
+\bibcite{linkbench}{27}
+\bibcite{starpu}{28}
+\bibcite{pagerank}{29}
+\bibcite{15}{30}
+\bibcite{becchi}{31}
+\bibcite{csr}{32}
+\bibcite{numa}{33}
+\bibcite{exascale5}{34}
+\bibcite{exascale3}{35}
+\bibcite{phi}{36}
+\bibcite{exascale7}{37}
+\bibcite{GPU30}{38}
+\bibcite{fb}{39}
+\bibcite{exascale2}{40}
+\bibcite{ocelot}{41}
+\bibcite{ASSP}{42}
+\bibcite{rcuda}{43}
+\bibcite{Duong}{44}
+\bibcite{CCof}{45}
+\bibcite{stinger}{46}
+\bibcite{CC}{47}
+\bibcite{GPU31}{48}
+\bibcite{teg}{49}
+\bibcite{naila}{50}
+\bibcite{mapgraph}{51}
+\bibcite{totem}{52}
+\bibcite{exascale4}{53}
+\bibcite{gvirtus}{54}
+\bibcite{powergraph}{55}
+\bibcite{GPU5}{56}
+\bibcite{gvim}{57}
+\bibcite{pegasus}{58}
+\bibcite{chronos}{59}
+\bibcite{green}{60}
+\bibcite{Hong}{61}
+\bibcite{pact}{62}
+\bibcite{jain}{63}
+\bibcite{gdev}{64}
+\bibcite{cusha}{65}
+\bibcite{GPUsearch}{66}
+\bibcite{atlas}{67}
+\bibcite{GPU43}{68}
+\bibcite{chi}{69}
+\bibcite{GPUmine}{70}
+\bibcite{exascale6}{71}
+\bibcite{jure}{72}
+\bibcite{GR25}{73}
+\bibcite{liedtke}{74}
+\bibcite{graphlab}{75}
+\bibcite{16}{76}
+\bibcite{ppl}{77}
+\bibcite{pregel}{78}
+\bibcite{CC_new}{79}
+\bibcite{Merrill}{80}
+\bibcite{shadowfax}{81}
+\bibcite{graph500}{82}
+\bibcite{phull}{83}
+\bibcite{GPU33}{84}
+\bibcite{symphony}{85}
+\bibcite{Ramalingam}{86}
+\bibcite{ravi}{87}
+\bibcite{17}{88}
+\bibcite{queue}{89}
+\bibcite{kron20}{90}
+\bibcite{xstream}{91}
+\bibcite{nlpktt}{92}
+\bibcite{GR}{93}
+\bibcite{Rain}{94}
+\bibcite{Strings}{95}
+\bibcite{GraphReduce}{96}
+\bibcite{graphin}{97}
+\bibcite{nemu}{98}
+\bibcite{exascale1}{99}
+\bibcite{vcuda}{100}
+\bibcite{ligra}{101}
+\bibcite{cloudbench}{102}
+\bibcite{dean}{103}
+\bibcite{GR38}{104}
+\bibcite{GR37}{105}
+\bibcite{graphscope}{106}
+\bibcite{18}{107}
+\bibcite{19}{108}
+\bibcite{BSP}{109}
+\bibcite{aspire}{110}
+\bibcite{GPU25}{111}
+\bibcite{web}{112}
+\bibcite{orkut}{113}
+\bibcite{sc05}{114}
+\bibcite{medusa}{115}
+\@writefile{toc}{\setcounter{tocdepth}{3}}
+\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {Vita}}{122}}
+\@writefile{toc}{\setcounter {tocdepth}{2}}
+\@writefile{toc}{\setcounter {tocdepth}{2}}

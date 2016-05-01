@@ -1,0 +1,7 @@
+\contentsline {table}{\numberline {1}{\ignorespaces {Benchmark Applications}}}{30}
+\contentsline {table}{\numberline {2}{\ignorespaces Datasets used to evaluate GraphReduce framework. `Out-of-memory' means that the input graphs cannot fit into the limited GPU memory. A commercial K20c GPU with a 4.8 GB global memory is used as an example to illustrate in-memory and out-of-memory cases.}}{48}
+\contentsline {table}{\numberline {3}{\ignorespaces Performance comparision between two state-of-the-art graph processing approaches. X-Stream runs on a 16 core Xeon E5-2670 CPU with 32GB memory. CuSha runs on a NVIDIA K20c Kepler GPU with 4.8 GB memory. }}{48}
+\contentsline {table}{\numberline {4}{\ignorespaces Execution times of out-of-memory graph processing frameworks on different algorithms and graph inputs. Reported times are wall time and in {\bf seconds}.}}{67}
+\contentsline {table}{\numberline {5}{\ignorespaces Performance results of in-memory (small) graph processing frameworks on different algorithms and graph inputs. Reported times are in { milliseconds}. {MG stands for MapGraph.}}}{68}
+\contentsline {table}{\numberline {6}{\ignorespaces {Implementing Graph Algorithms in EvoGraph}}}{85}
+\contentsline {table}{\numberline {7}{\ignorespaces Graph Datasets Under Evaluation}}{95}

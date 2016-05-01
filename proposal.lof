@@ -1,0 +1,56 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Accelerator-based heterogeneous system architecture }}{2}
+\contentsline {figure}{\numberline {2}{\ignorespaces GPGPU application service model following a negative exponential distribution of request arrival from multiple end users. }}{3}
+\contentsline {figure}{\numberline {3}{\ignorespaces Static vs. incremental graph processing. }}{4}
+\contentsline {figure}{\numberline {4}{\ignorespaces Compute and memory characteristic of various GPU-based cloud applications. }}{13}
+\contentsline {figure}{\numberline {5}{\ignorespaces GPU utilization of Monte Carlo requests following exponential distribution of request arrival with sequential vs. concurrent execution. }}{13}
+\contentsline {figure}{\numberline {6}{\ignorespaces Architecture of GPU Remoting. }}{14}
+\contentsline {figure}{\numberline {7}{\ignorespaces Logical transformatiom of GPU cluster after gPool creation. }}{16}
+\contentsline {figure}{\numberline {8}{\ignorespaces Three different implementations GPU remoting.}}{16}
+\contentsline {figure}{\numberline {9}{\ignorespaces Software architecture of Strings.}}{20}
+\contentsline {figure}{\numberline {10}{\ignorespaces The structure of the GPU Affinity Mapper.}}{21}
+\contentsline {figure}{\numberline {11}{\ignorespaces The structure of the Context Packer.}}{22}
+\contentsline {figure}{\numberline {12}{\ignorespaces The structure of the GPU Scheduler.}}{24}
+\contentsline {figure}{\numberline {13}{\ignorespaces (a) Real-Time Signal based GPU Scheduler (b) Phase Selection Scheduling Policy. }}{26}
+\contentsline {figure}{\numberline {14}{\ignorespaces GPGPU application service model following a negative exponential distribution of request arrival from multiple end users.}}{31}
+\contentsline {figure}{\numberline {15}{\ignorespaces Performance benefit of workload balancing policies vs. CUDA runtime in a single node with 2 GPUs.}}{33}
+\contentsline {figure}{\numberline {16}{\ignorespaces Performance benefit of GPU sharing in an emulated 4 GPU server. }}{34}
+\contentsline {figure}{\numberline {17}{\ignorespaces Fairness achieved by TFS-Strings vs. TFS-Rain vs. CUDA runtime. }}{34}
+\contentsline {figure}{\numberline {18}{\ignorespaces Performance benefit of GPU scheduling. }}{36}
+\contentsline {figure}{\numberline {19}{\ignorespaces Performance benefit of GPU scheduling policies.}}{37}
+\contentsline {figure}{\numberline {20}{\ignorespaces Performance benefit of feedback-based load balancing.}}{38}
+\contentsline {figure}{\numberline {21}{\ignorespaces Performance benefit of two Strings specific feedback-based load balancing policies.}}{38}
+\contentsline {figure}{\numberline {22}{\ignorespaces An example of GAS abstraction. }}{46}
+\contentsline {figure}{\numberline {23}{\ignorespaces (a) Vertex-centric Scatter-Gather. (b) Edge-centric Scatter-Gather. }}{47}
+\contentsline {figure}{\numberline {24}{\ignorespaces Frontier size changes across iterations using the GAS model on GPUs. This phenomenon highly depends on the input graph and algorithm, showcasing the inherent graph irregularity. Four cases from left to right: (a) Cage15 - PageRank; (b) nlpkkt160 - PageRank; (c) Cage15 - BFS; and (d) orkut - Connected Component (CC). }}{49}
+\contentsline {figure}{\numberline {25}{\ignorespaces Performance of transferring 100,000,000 double elements, using three techniques for data exchange between CPU and GPU. }}{51}
+\contentsline {figure}{\numberline {26}{\ignorespaces Performance benefits of using a combination of compute-transfer and compute-compute schemes for processing matrix multiplication with different input sizes. Stripe size=50, which refers to the contiguous number of rows of the matrix being fetched into the GPU memory as a chunk. }}{52}
+\contentsline {figure}{\numberline {27}{\ignorespaces Writing sequential code using GAS model for Connected Component (CC) algorithm in GraphReduce. }}{55}
+\contentsline {figure}{\numberline {28}{\ignorespaces Illustration of \textit {shard} and its data structure. }}{55}
+\contentsline {figure}{\numberline {29}{\ignorespaces Architecture of GraphReduce framework. }}{56}
+\contentsline {figure}{\numberline {30}{\ignorespaces The structure of the Partition Engine.}}{58}
+\contentsline {figure}{\numberline {31}{\ignorespaces The structures of the Data Movement Engine and Compute Engine. Tables/buffer\_list are data structures (passive elements of the engine) while rectangles are modules (active elements of the engine).}}{58}
+\contentsline {figure}{\numberline {32}{\ignorespaces Sub-phases of the computation stage. }}{60}
+\contentsline {figure}{\numberline {33}{\ignorespaces GPU device pseudo code for exploiting two-level parallelism in different phases. }}{61}
+\contentsline {figure}{\numberline {34}{\ignorespaces (a) Data Movement from host to GPU in GraphReduce through Hyper-Q. (b) Illustration of Spray Streams for better throughput.}}{63}
+\contentsline {figure}{\numberline {35}{\ignorespaces GR's speedup over GraphChi for various algorithms and out-of-memory graph inputs. }}{67}
+\contentsline {figure}{\numberline {36}{\ignorespaces GR's speedup over X-Stream for various algorithms and out-of-memory graph inputs. }}{68}
+\contentsline {figure}{\numberline {37}{\ignorespaces Performance gained from memcpy optimization. (a) Actual memcpy time comparison between optimized and unoptimized GR for nlpktt160. (b) Percentage improvement of memcpy performance from optimized GR against unoptimized GR. }}{70}
+\contentsline {figure}{\numberline {38}{\ignorespaces Frontier size changes across iterations shown for several large out-of-memory graphs with three algorithms. }}{71}
+\contentsline {figure}{\numberline {39}{\ignorespaces For out-of-memory graphs, percentage of iterations that are below 50\% of the max lifetime frontier size. }}{71}
+\contentsline {figure}{\numberline {40}{\ignorespaces State-of-the-art GPU frameworks (i.e., MapGraph, GraphReduce and Cusha) for processing static graphs significantly outperform the best CPU-based framework X-Stream (baseline).}}{77}
+\contentsline {figure}{\numberline {41}{\ignorespaces A subgraph of a Linkedin social network has been updated over time but the rest of the network remains the same. }}{78}
+\contentsline {figure}{\numberline {42}{\ignorespaces The software architecture diagram of EvoGraph.}}{82}
+\contentsline {figure}{\numberline {43}{\ignorespaces Computation phases of incremental BFS implemented in EvoGraph with inconsistent vertices marked red.}}{84}
+\contentsline {figure}{\numberline {44}{\ignorespaces Computation phases of incremental connected component (CC) implemented in EvoGraph with inconsistent vertices marked red.}}{84}
+\contentsline {figure}{\numberline {45}{\ignorespaces (a) Deep Copy mechanism in Stream Engine. (b) Context Merging Mechanism in Stream Engine.}}{86}
+\contentsline {figure}{\numberline {46}{\ignorespaces \textbf {Stateful example:} Implementation of incremental BFS using EvoGraph APIs. }}{91}
+\contentsline {figure}{\numberline {47}{\ignorespaces \textbf {Partially Stateless example:} Implementation of incremental Connected Components using EvoGraph APIs. }}{93}
+\contentsline {figure}{\numberline {48}{\ignorespaces \textbf {Fully Stateless example: }Implementation of incremental Triangle Counting using EvoGraph APIs. }}{94}
+\contentsline {figure}{\numberline {49}{\ignorespaces TC: (a) EvoGraph's speedup over the static computation using GraphReduce; (b) Update Rate that EvoGraph achieves; (c) For 1 million updates, EvoGraph vs. Static Runtime using GraphReduce. }}{96}
+\contentsline {figure}{\numberline {50}{\ignorespaces CC: (a) EvoGraph's speedup over the static computation using GraphReduce; (b) Update Rate that EvoGraph achieves; (c) For 1 million updates, EvoGraph vs. Static Runtime using GraphReduce. }}{97}
+\contentsline {figure}{\numberline {51}{\ignorespaces BFS: (a) EvoGraph's speedup over the static computation using GraphReduce; (b) Update Rate that EvoGraph achieves; (c) For 1 million updates, EvoGraph vs. Static Runtime using GraphReduce. }}{98}
+\contentsline {figure}{\numberline {52}{\ignorespaces Impact of vertex degree property on the update rate of Triangle Counting algorithm.}}{99}
+\contentsline {figure}{\numberline {53}{\ignorespaces Impact of disjoint components property on the update rate of Connected Components algorithm.}}{99}
+\contentsline {figure}{\numberline {54}{\ignorespaces Impact of vertex depth property on the update rate of Breadth First Search algorithm.}}{100}
+\contentsline {figure}{\numberline {55}{\ignorespaces Property-guard heuristic vs. naive streaming in incremental BFS using vertex depth property for five graph inputs. The x-axis represents the fraction of vertices below depth threshold of MAX\_DEPTH/4. }}{102}
+\contentsline {figure}{\numberline {56}{\ignorespaces EvoGraph vs STINGER throughput comparison for (a) Connected Components and (b) Triangle Counting.}}{103}

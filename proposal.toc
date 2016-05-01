@@ -1,0 +1,103 @@
+\contentsline {chapter}{\MakeUppercase {Dedication}}{iii}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\MakeUppercase {Acknowledgements}}{iv}
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\MakeUppercase {List of Tables} }{ix}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\MakeUppercase {List of Figures} }{x}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\MakeUppercase {Summary}}{xiii}
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {I}\MakeUppercase {Introduction}}{1}
+\contentsline {section}{\numberline {1.1}GPU Sharing in Cloud}{1}
+\contentsline {section}{\numberline {1.2}Large-Scale Graph Analytics on GPUs}{3}
+\contentsline {section}{\numberline {1.3}Dynamic Graph Analytics on GPUs}{4}
+\contentsline {section}{\numberline {1.4}Thesis Statement}{6}
+\contentsline {section}{\numberline {1.5}Contributions}{6}
+\contentsline {section}{\numberline {1.6}Dissertation Structure}{9}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {II}\MakeUppercase {Strings: Multi-tenancy in Accelerator-based Servers}}{10}
+\contentsline {section}{\numberline {2.1}Background and Motivation}{12}
+\contentsline {subsection}{\numberline {2.1.1}Scheduling Crisis in GPU Multitenancy}{12}
+\contentsline {section}{\numberline {2.2}System Design Principles}{14}
+\contentsline {subsection}{\numberline {2.2.1}Future GPU Servers and gPool}{14}
+\contentsline {subsection}{\numberline {2.2.2}Design Decisions}{16}
+\contentsline {section}{\numberline {2.3}Strings Architecture}{19}
+\contentsline {section}{\numberline {2.4}Scheduling Policies}{25}
+\contentsline {subsection}{\numberline {2.4.1}Workload Balancing Policies }{25}
+\contentsline {subsection}{\numberline {2.4.2}GPU Scheduling Policies}{26}
+\contentsline {subsection}{\numberline {2.4.3}Feedback-based Load Balancing}{28}
+\contentsline {subsection}{\numberline {2.4.4}Discussion}{29}
+\contentsline {section}{\numberline {2.5}Experimental Evaluation}{30}
+\contentsline {subsection}{\numberline {2.5.1}Evaluation Metrics}{30}
+\contentsline {subsection}{\numberline {2.5.2}Benchmarks}{31}
+\contentsline {subsection}{\numberline {2.5.3}Experimental Setup}{32}
+\contentsline {subsection}{\numberline {2.5.4}Results}{33}
+\contentsline {section}{\numberline {2.6}Related Work}{40}
+\contentsline {section}{\numberline {2.7}Chapter Summary}{41}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {III}\MakeUppercase {GraphReduce: Processing Large-Scale Graphs on Accelerator-based Systems}}{43}
+\contentsline {section}{\numberline {3.1}Background and Motivation}{45}
+\contentsline {subsection}{\numberline {3.1.1}Computational Model: GAS Abstraction}{45}
+\contentsline {subsection}{\numberline {3.1.2}Motivation and Challenges}{48}
+\contentsline {subsubsection}{\numberline {3.1.2.1}Why Graph Analytics Using GPUs ?}{48}
+\contentsline {subsubsection}{\numberline {3.1.2.2}Challenges in GPU Graph Analytics?}{49}
+\contentsline {section}{\numberline {3.2}Design Choices}{50}
+\contentsline {subsection}{\numberline {3.2.1}Hybrid Programming Model}{50}
+\contentsline {subsection}{\numberline {3.2.2}Characterization of Buffers in Play}{51}
+\contentsline {subsection}{\numberline {3.2.3}Coordinated Computation and Data Movement}{54}
+\contentsline {section}{\numberline {3.3}GraphReduce Framework}{54}
+\contentsline {subsection}{\numberline {3.3.1}User Interface}{56}
+\contentsline {subsection}{\numberline {3.3.2}Partition Engine}{56}
+\contentsline {subsection}{\numberline {3.3.3}Data Movement Engine}{58}
+\contentsline {subsection}{\numberline {3.3.4}Computation Engine}{60}
+\contentsline {section}{\numberline {3.4}Optimizations}{63}
+\contentsline {subsection}{\numberline {3.4.1}Asynchronous Execution and the Spray Operation}{63}
+\contentsline {subsection}{\numberline {3.4.2}Dynamic Frontier Management}{64}
+\contentsline {subsection}{\numberline {3.4.3}Dynamic Phase Fusion/Elimination}{64}
+\contentsline {section}{\numberline {3.5}Experimental Evaluation }{66}
+\contentsline {subsection}{\numberline {3.5.1}Experimental Setup}{66}
+\contentsline {subsection}{\numberline {3.5.2}Evaluation and Analysis}{67}
+\contentsline {subsubsection}{\numberline {3.5.2.1}Comparison with Out-of-Memory Frameworks}{67}
+\contentsline {subsubsection}{\numberline {3.5.2.2}Comparison with GPU In-Memory Frameworks}{69}
+\contentsline {subsubsection}{\numberline {3.5.2.3}Performance Effects of GraphReduce Optimizations}{70}
+\contentsline {subsubsection}{\numberline {3.5.2.4}Discussion}{72}
+\contentsline {section}{\numberline {3.6}Chapter Summary}{73}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {IV}\MakeUppercase {EvoGraph: Processing Evolving Graphs on Accelerator-Based Systems}}{74}
+\contentsline {section}{\numberline {4.1}Motivation and Challenges}{77}
+\contentsline {section}{\numberline {4.2}Design Choices}{79}
+\contentsline {subsection}{\numberline {4.2.1}Computation Overlap and Programming Model}{79}
+\contentsline {subsection}{\numberline {4.2.2}Working Set Overlap and Data Structure Choice}{80}
+\contentsline {subsection}{\numberline {4.2.3}Static vs. Dynamic Runtime}{80}
+\contentsline {subsection}{\numberline {4.2.4}Context Merging and Multi-Level GPU Sharing}{81}
+\contentsline {section}{\numberline {4.3}EvoGraph: The Runtime Framework}{82}
+\contentsline {subsection}{\numberline {4.3.1}User Interface}{83}
+\contentsline {subsection}{\numberline {4.3.2}Stream Engine: Data Movement and Context Merging}{84}
+\contentsline {subsection}{\numberline {4.3.3}Computation Phases in EvoGraph}{87}
+\contentsline {section}{\numberline {4.4}Case Studies}{90}
+\contentsline {section}{\numberline {4.5}Experimental Evaluation}{93}
+\contentsline {subsection}{\numberline {4.5.1}Experimental Setup}{93}
+\contentsline {subsection}{\numberline {4.5.2}EvoGraph Vs. Static Recomputation}{95}
+\contentsline {subsection}{\numberline {4.5.3}Sensitivity Analysis}{97}
+\contentsline {subsection}{\numberline {4.5.4}Performance Implications of Graph Properties}{100}
+\contentsline {subsection}{\numberline {4.5.5}EvoGraph VS. STINGER}{102}
+\contentsline {subsection}{\numberline {4.5.6}Discussion}{103}
+\contentsline {section}{\numberline {4.6}Chapter Summary}{104}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {V}\MakeUppercase {Related work}}{105}
+\contentsline {section}{\numberline {5.1}Accelerator-based Graph Processing}{105}
+\contentsline {section}{\numberline {5.2}Out-of-Core Graph Processing}{106}
+\contentsline {section}{\numberline {5.3}Distributed graph processing}{107}
+\contentsline {section}{\numberline {5.4}Dynamic graph processing}{107}
+\contentsline {section}{\numberline {5.5}Real-time, continuous query processing}{108}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {VI}\MakeUppercase {Conclusions and Future Directions}}{109}
+\contentsline {chapter}{\MakeUppercase {References}}{112}
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{3}
+\contentsline {chapter}{\MakeUppercase {Vita}}{122}
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{2}
